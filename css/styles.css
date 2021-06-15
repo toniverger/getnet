@@ -1,0 +1,82 @@
+	body {background: #fff; overflow-x: hidden; font-family: Arial, sans-serif;}
+	body.showOverlay {overflow: hidden;}
+
+	.h100 {height: 100%;}
+	.desktop {display: block !important;}
+	.mobile {display: none !important;}
+	.l {float: left;}
+	.r {float: right;}
+
+	::-webkit-input-placeholder {
+	   color: #211915;
+	   opacity: 1;
+	   -webkit-transition: .3s;
+	      -moz-transition: .3s;
+	       -ms-transition: .3s;
+	        -o-transition: .3s;
+	           transition: .3s;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #211915;
+	   opacity: 1;
+	   -webkit-transition: .3s;
+	      -moz-transition: .3s;
+	       -ms-transition: .3s;
+	        -o-transition: .3s;
+	           transition: .3s; 
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #211915;
+	   opacity: 1; 
+	   -webkit-transition: .3s;
+	      -moz-transition: .3s;
+	       -ms-transition: .3s;
+	        -o-transition: .3s;
+	           transition: .3s; 
+	}
+
+	:-ms-input-placeholder {  
+	   color: #211915; 
+	   opacity: 1; 
+	   -webkit-transition: .3s;
+	      -moz-transition: .3s;
+	       -ms-transition: .3s;
+	        -o-transition: .3s;
+	           transition: .3s;
+	}
+
+	.error::-webkit-input-placeholder {
+	   color: #CC4138;
+	   opacity: 1;
+	}
+
+	.error:-moz-placeholder { /* Firefox 18- */
+	   color: #CC4138;
+	   opacity: 1;  
+	}
+
+	.error::-moz-placeholder {  /* Firefox 19+ */
+	   color: #CC4138;
+	   opacity: 1;  
+	}
+
+	.error:-ms-input-placeholder {  
+	   color: #CC4138; 
+	   opacity: 1; 
+	}
+
+
+/*	--------------------------------------------------
+	Global & shapes
+	-------------------------------------------------- */
+	section {position: relative;}
+	.clear {clear: both;}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+	.desktop {display: none !important;}
+	.mobile {display: block !important;}
+}
