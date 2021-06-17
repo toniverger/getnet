@@ -178,7 +178,7 @@
 	}
 	.creditCards {
 		position: absolute;
-		left: 0;
+		left: -85px;
 		bottom: -50px;
 	}
 	.arrow {
