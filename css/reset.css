@@ -66,6 +66,48 @@
 
 	/* Webfonts
 	------------------------------------------- */
+	@font-face {
+	    font-family: 'Headline';
+	    src: url('fonts/SantanderHeadlineW05-Rg.woff2') format('woff2'),
+	         url('fonts/SantanderHeadlineW05-Rg.woff') format('woff');
+	    font-weight: 500;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'Headline';
+	    src: url('fonts/SantanderHeadlineW05-Bold.woff2') format('woff2'),
+	         url('fonts/SantanderHeadlineW05-Bold.woff') format('woff');
+	    font-weight: 700;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'Microtext';
+	    src: url('fonts/SantanderMicroTextW05-Rg.woff2') format('woff2'),
+	         url('fonts/SantanderMicroTextW05-Rg.woff') format('woff');
+	    font-weight: 500;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'Santander';
+	    src: url('fonts/SantanderTextW05-Regular.woff2') format('woff2'),
+	         url('fonts/SantanderTextW05-Regular.woff') format('woff');
+	    font-weight: 500;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'Santander';
+	    src: url('fonts/SantanderTextW05-SemiBold.woff2') format('woff2'),
+	         url('fonts/SantanderTextW05-SemiBold.woff') format('woff');
+	    font-weight: 600;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'Santander';
+	    src: url('fonts/SantanderTextW05-Bold.woff2') format('woff2'),
+	         url('fonts/SantanderTextW05-Bold.woff') format('woff');
+	    font-weight: 700;
+	    font-style: normal;
+	}
 
 
 
@@ -73,7 +115,7 @@
 	------------------------------------------- */
 	*, *:before, *:after { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; -ms-box-sizing:border-box; }
 	body { 
-		position:relative; font-family: Arial, sans-serif; font-weight:normal; font-style:normal; line-height:1; color:#fff; background:#000;
+		position:relative; font-family: 'Santander', sans-serif; font-weight:normal; font-style:normal; line-height:1; color:#fff; background:#000;
 		-webkit-text-size-adjust:none; text-size-adjust:none;
 		-webkit-font-smoothing:antialiased; -webkit-touch-callout: none -webkit-overflow-scrolling: touch;
 	}
