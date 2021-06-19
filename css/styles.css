@@ -289,6 +289,21 @@
 		color: #EC0000;
 	}
 
+/*	--------------------------------------------------
+	Technology
+	-------------------------------------------------- */
+	.sectionTitle .text {
+		color: #3E3E3E;
+		font-size: 123%;
+		margin-top: 14px;
+		line-height: 25px;
+		max-width: 400px;
+	}
+	.sectionTitle .text span {
+		display: block;
+		margin-bottom: 20px;
+	}
+
 /* MEDIA QUERIES */
 @media (min-width: 769px) and (max-width:  1160px) {
 	main {
