@@ -80,6 +80,7 @@
 		max-width: 1100px;
 		margin: auto;
 		padding: 0 15px;
+		position: relative;
 	}
 
 /*	--------------------------------------------------
@@ -416,6 +417,40 @@
 		max-width: 100%;
 	}
 	
+/*	--------------------------------------------------
+	Footer
+	-------------------------------------------------- */
+	footer {
+		background: #3E3E3E;
+		margin-top: 108px;
+		text-align: center;
+	}
+	footer .links {
+		padding: 44px 10px 31px;
+	}
+	footer .links li {
+		display: inline-block;
+	}
+	footer .links li a {
+		text-transform: uppercase;
+		margin-right: 45px;
+		font-weight: 600;
+	}
+	footer .social {
+		position: absolute;
+		right: 10px;
+		top: 44px;
+	}
+	footer .social img {
+		filter: brightness(10);
+	}
+	.subfooter {
+		background: rgba(0, 0, 0, .6);
+		color: #fff;
+		text-align: center;
+		padding: 16px 10px;
+	}
+
 /* MEDIA QUERIES */
 @media (min-width: 769px) and (max-width:  1160px) {
 	main {
