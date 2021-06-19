@@ -174,10 +174,11 @@
 		max-width: 300px;
 		margin-bottom: 23px;
 	}
-	.heroText a {
+	.outlineBtn {
 		border: 1px solid #fff;
 		display: inline-block;
-		padding: 10px 22px;
+		padding: 13px 22px;
+		font-size: 123%;
 	}
 	.heroImage {
 		vertical-align: top;
@@ -221,7 +222,7 @@
 		font-family: 'headline', sans-serif;
 		color: #9E3667;
 		font-size: 307.7%;
-		max-width: 450px;
+		max-width: 500px;
 		margin-top: 10px;
 	}
 	.sectionInfo {
@@ -265,6 +266,27 @@
 		color: #666;
 		font-size: 107.7%;
 		line-height: 20px;
+	}
+
+/*	--------------------------------------------------
+	Choose
+	-------------------------------------------------- */
+	.sectionTitle ul {
+		list-style-image: url('../img/check-icon-red.svg');
+		max-width: 505px;
+		margin: 27px 0 27px 24px;
+	}
+	.sectionTitle li {
+		color: #3E3E3E;
+		line-height: 25px;
+		font-size: 123%;
+		margin-bottom: 20px;
+	}
+	.outlineBtn.red {
+		border-color: #EC0000;
+		border-width: 2px;
+		background: #F300131A;
+		color: #EC0000;
 	}
 
 /* MEDIA QUERIES */
