@@ -76,6 +76,11 @@
 	.centerContent {
 		text-align: center;
 	}
+	.container {
+		max-width: 1100px;
+		margin: auto;
+		padding: 0 15px;
+	}
 
 /*	--------------------------------------------------
 	Navbar
@@ -85,6 +90,7 @@
 		height: 63px;
 		background: #fff;
 		position: fixed;
+		z-index: 9;
 		top: 0;
 		left: 0;
 		-webkit-box-shadow: #00000029 0px 3px 6px;
@@ -139,6 +145,7 @@
 		background: url('../img/banner-bg.png') -30% bottom no-repeat;
 		margin-top: 63px;
 		padding-bottom: 80px;
+		position: relative;
 	}
 	main .dots {
 		position: absolute;
@@ -191,6 +198,73 @@
 		position: absolute;
 		bottom: -30px;
 		right: 37px;
+	}
+
+/*	--------------------------------------------------
+	Enterprise
+	-------------------------------------------------- */
+	section {
+		margin-top: 110px;
+	}
+	.sectionTitle {
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
+	.sectionTitle h5 {
+		color: #EC0000;
+		font-weight: 700;
+		font-size: 153.8%;
+		text-transform: uppercase;
+	}
+	.sectionTitle p {
+		font-family: 'headline', sans-serif;
+		color: #9E3667;
+		font-size: 307.7%;
+		max-width: 450px;
+		margin-top: 10px;
+	}
+	.sectionInfo {
+		display: inline-block;
+		vertical-align: top;
+		width: 49%;
+	}
+	.sectionInfo p {
+		font-size: 123%;
+		color: #666;
+		line-height: 25px;
+		margin-bottom: 30px;
+	}
+	.boxes {
+		margin-top: 76px;
+	}
+	.boxes .row {
+		max-width: 100%;
+	}
+	.boxes .column {
+		padding: 8px;
+	}
+	.boxes .column:nth-child(even) {
+		margin-top: 40px;
+	}
+	.box {
+		padding: 32px 18px;
+		min-height: 260px;
+		-webkit-box-shadow: #9E36671A 0px 3px 20px;
+		        box-shadow: #9E36671A 0px 3px 20px;
+	}
+	.box .title {
+		color: #9E3667;
+		font-size: 138.4%;
+		font-weight: 700;
+		margin-top: 15px;
+		line-height: 19px;
+	}
+	.box .description {
+		margin-top: 10px;
+		color: #666;
+		font-size: 107.7%;
+		line-height: 20px;
 	}
 
 /* MEDIA QUERIES */
