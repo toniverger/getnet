@@ -8,7 +8,7 @@
 	.r {float: right;}
 
 	::-webkit-input-placeholder {
-	   color: #211915;
+	   color: ##666666;
 	   opacity: 1;
 	   -webkit-transition: .3s;
 	      -moz-transition: .3s;
@@ -18,7 +18,7 @@
 	}
 
 	:-moz-placeholder { /* Firefox 18- */
-	   color: #211915;
+	   color: ##666666;
 	   opacity: 1;
 	   -webkit-transition: .3s;
 	      -moz-transition: .3s;
@@ -28,7 +28,7 @@
 	}
 
 	::-moz-placeholder {  /* Firefox 19+ */
-	   color: #211915;
+	   color: ##666666;
 	   opacity: 1; 
 	   -webkit-transition: .3s;
 	      -moz-transition: .3s;
@@ -38,7 +38,7 @@
 	}
 
 	:-ms-input-placeholder {  
-	   color: #211915; 
+	   color: ##666666; 
 	   opacity: 1; 
 	   -webkit-transition: .3s;
 	      -moz-transition: .3s;
@@ -207,6 +207,9 @@
 	section {
 		margin-top: 110px;
 	}
+	.sectionInfo + .sectionTitle {
+		padding-left: 50px;
+	}
 	.sectionTitle {
 		display: inline-block;
 		vertical-align: top;
@@ -271,7 +274,7 @@
 /*	--------------------------------------------------
 	Choose
 	-------------------------------------------------- */
-	.sectionTitle ul {
+	ul.checkList {
 		list-style-image: url('../img/check-icon-red.svg');
 		max-width: 505px;
 		margin: 27px 0 27px 24px;
@@ -328,6 +331,89 @@
 		display: inline-block;
 		margin: 0 40px 60px;
 		vertical-align: middle;
+	}
+
+/*	--------------------------------------------------
+	Benefits
+	-------------------------------------------------- */
+	section.benefits .sectionTitle {
+		vertical-align: bottom;
+	}
+	ul.icons {
+		margin-top: 36px;
+	}
+	ul.icons li {
+		display: inline-block;
+		margin-right: 26px;
+	}
+	.formContainer {
+		margin-top: 62px;
+	}
+	form {
+		width: 444px;
+		display: inline-block;
+	}
+	form textarea {
+		height: 106px;
+	}
+	form button {
+		background: #9E3667;
+		border: #9E3667 1px solid;
+		color: #fff;
+		font-size: 123%;
+		padding: 10px 22px;
+		cursor: pointer;
+		margin-top: 7px;
+	}
+	.contactData {
+		display: inline-block;
+		width: calc(100% - 450px);
+		max-width: 280px;
+		vertical-align: top;
+		float: right;
+		padding-left: 50px;
+	}
+	.contactData h6 {
+		color: #9E3667;
+		font-weight: 700;
+		font-size: 138.4%;
+		margin-bottom: 15px;
+	}
+	.contactInfo {
+		margin-bottom: 15px;
+	}
+	.contactInfo img {
+		margin-right: 15px;
+	}
+	.contactInfo span {
+		color: #3E3E3E;
+		font-weight: 600;
+		font-size: 115.3%;
+		line-height: 38px;
+	}
+	.contactData .contactInfo + h6 {
+		margin-top: 20px;
+	}
+	.contactData .icons {
+		margin-top: 15px;
+	}
+	.contactData .icons li {
+		margin-right: 15px;
+	}
+
+/*	--------------------------------------------------
+	Contact
+	-------------------------------------------------- */
+	section.contact .container {
+		max-width: 800px;
+	}
+	section.contact .sectionTitle {
+		width: 100%;
+		display: block;
+	}
+	section.contact .sectionTitle p,
+	section.contact .sectionTitle .text {
+		max-width: 100%;
 	}
 	
 /* MEDIA QUERIES */
