@@ -162,6 +162,7 @@
 		font-size: 153.8%;
 		font-weight: 700;
 		margin-bottom: 10px;
+		text-transform: uppercase;
 	}
 	.heroText h1 {
 		font-size: 423%;
@@ -184,6 +185,7 @@
 	.heroImage {
 		vertical-align: top;
 		position: relative;
+		margin-top: -1px;
 	}
 	.creditCards {
 		position: absolute;
@@ -270,6 +272,7 @@
 		color: #666;
 		font-size: 107.7%;
 		line-height: 20px;
+		font-family: "Microtext", sans-serif;
 	}
 
 /*	--------------------------------------------------
@@ -465,6 +468,218 @@
 }
 
 @media (max-width: 768px) {
-	.desktop {display: none !important;}
+	.desktop, .hideMobile {display: none !important;}
 	.mobile {display: block !important;}
+
+	/* NAVBAR */
+	nav,
+	.login,
+	menu .social {
+		display: none;
+	}
+
+	/* HERO */
+	main {
+		background-position: center top;
+		padding-bottom: 0;
+	}
+	main .r {
+		float: none;
+	}
+	.heroText {
+		float: none;
+		display: block;
+		max-width: 310px;
+		margin: auto;
+		text-align: center;
+		padding-top: 30px;
+	}
+	.heroText h3 {
+		font-size: 138.4%;
+	}
+	.heroText h1 {
+		font-size: 307.7%;
+		line-height: 45px;
+		margin-bottom: 10px;
+	}
+	.heroText p {
+		max-width: 100%;
+	}
+	main .dots {
+		display: none;
+	}
+	.heroImage {
+		margin-top: 96px;
+	}
+	.creditCards {
+		left: 0;
+		right: 0;
+		top: -60px;
+		margin: auto;
+		text-align: center;
+	}
+	.creditCards > div {
+		display: inline-block;
+	}
+	.creditCards > div img {
+		height: 90px;
+	}
+
+	/* ENTERPRISE */
+	.container {
+		padding: 0 35px;
+	}
+	section {
+		margin-top: 35px;
+	}
+	.sectionTitle,
+	.sectionInfo {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.sectionTitle h5 {
+		font-size: 138.4%;
+	}
+	.sectionTitle p {
+		font-size: 215.4%;
+	}
+	.sectionInfo {
+		margin-top: 20px;
+	}
+	.sectionInfo p {
+		line-height: 18px;
+		font-size: 107.7%;
+		margin-bottom: 20px;
+	}
+	.boxes .column:nth-child(even) {
+		margin-top: 0;
+	}
+	.boxes {
+		white-space: nowrap;
+		overflow: scroll;
+		margin: 40px -36px 0;
+		padding-left: 36px;
+		padding-bottom: 20px;
+	}
+	.boxes .row .three {
+		width: 205px;
+		display: inline-block;
+		vertical-align: top;
+		float: none;
+		margin-right: 10px;
+	}
+	.box {
+		padding: 26px 18px;
+		min-height: 234px;
+		white-space: normal;
+	}
+	.box img {
+		height: 43px;
+	}
+	.box .title {
+		font-size: 123%;
+		line-height: 19px;
+		margin-top: 10px;
+	}
+	.box .description {
+		font-size: 92.3%;
+		line-height: 16px;
+		margin-top: 5px;
+	}
+
+	/* CHOOSE */
+	.sectionInfo + .sectionTitle {
+		padding-left: 0;
+	}
+	ul.checkList {
+		text-align: left;
+	}
+	.sectionTitle li {
+		font-size: 107.7%;
+		line-height: 18px;
+		margin-bottom: 15px;
+	}
+	.sectionInfo {
+		margin-top: 30px;
+	}
+
+	/* POS */
+	.sectionTitle .text {
+		font-size: 107.7%;
+		line-height: 18px;
+		max-width: 90%;
+		margin: 14px auto 0;
+	}
+
+	/* PAYMENTS */
+	section.payments {
+		margin-top: 130px;
+	}
+	.cardsList {
+		white-space: nowrap;
+		overflow: scroll;
+		margin: 40px -36px 0;
+		padding-left: 20px;
+	}
+	.cardsList li {
+		margin: 0 12px;
+	}
+	.cardsList img {
+		height: 25px;
+	}
+
+	/* BENEFITS */
+	section.benefits {
+		margin-top: 104px;
+	}
+	ul.icons li:last-child {
+		margin-right: 0;
+	}
+
+	/* CONTACT */
+	form {
+		width: 100%;
+	}
+	form button {
+		display: block;
+		margin: 5px auto 0;
+	}
+	.contactData {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		padding-left: 0;
+		margin-top: 52px;
+		text-align: center;
+	}
+	.contactInfo {
+		display: inline-block;
+		margin-top: 15px;
+	}
+	.contactInfo:nth-child(2) {
+		margin-right: 32px;
+	}
+	.contactData .contactInfo + h6 {
+		margin-top: 30px;
+	}
+
+	/* FOOTER */
+	footer {
+		margin-top: 52px;
+	}
+	footer .social {
+		position: relative;
+		right: initial;
+		top: initial;
+		padding: 35px 0 30px;
+		float: right;
+	}
+	.subfooter {
+		clear: both;
+		font-size: 76.9%;
+		padding: 9px 35px;
+		line-height: 12px;
+	}
 }
