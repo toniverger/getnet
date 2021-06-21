@@ -6,6 +6,13 @@ function scrollToAnchor(id){
 }
 
 $(window).on('load', function() {
+	var scene = $('.parallax');
+    $.each(scene, function(i, s) {
+        var parallaxInstance = new Parallax($(s)[0], {
+          relativeInput: true
+        });
+    })
+    
 	$('.menuBtn').on('click', function(e) {
 		e.preventDefault();
 		$('body').toggleClass('openMenu');
