@@ -684,6 +684,7 @@
 	main {
 		background-position: center top;
 		padding-bottom: 0;
+		background-size: auto;
 	}
 	main .r {
 		float: none;
