@@ -210,6 +210,14 @@
 	section {
 		margin-top: 110px;
 	}
+	section .dots {
+		position: absolute;
+		opacity: 0.5;
+	}
+	section.enterprise .dots {
+		top: -85px;
+		left: -60px;
+	}
 	.sectionInfo + .sectionTitle {
 		padding-left: 50px;
 	}
@@ -278,6 +286,13 @@
 /*	--------------------------------------------------
 	Choose
 	-------------------------------------------------- */
+	section.choose {
+		margin-top: 203px;
+	}
+	section.choose .dots {
+		left: 40px;
+		top: -85px;
+	}
 	ul.checkList {
 		list-style-image: url('../img/check-icon-red.svg');
 		max-width: 505px;
@@ -299,6 +314,13 @@
 /*	--------------------------------------------------
 	Technology
 	-------------------------------------------------- */
+	section.technology {
+		padding-bottom: 70px;
+	}
+	section.technology .dots {
+		right: 130px;
+		bottom: -42px;
+	}
 	.sectionTitle .text {
 		color: #3E3E3E;
 		font-size: 123%;
@@ -340,6 +362,26 @@
 /*	--------------------------------------------------
 	Benefits
 	-------------------------------------------------- */
+	section.benefits {
+		margin-top: 130px;
+		padding-bottom: 70px;
+		padding-top: 70px;
+	}
+	section.benefits .dots {
+		left: 130px;
+		bottom: -92px;
+	}
+	section.benefits .dots + .dots {
+		bottom: initial;
+		left: initial;
+		top: -190px;
+		right: 0;
+		-webkit-transform: rotate(90deg);
+		   -moz-transform: rotate(90deg);
+		    -ms-transform: rotate(90deg);
+		     -o-transform: rotate(90deg);
+		        transform: rotate(90deg);
+	}
 	section.benefits .sectionTitle {
 		vertical-align: bottom;
 	}
@@ -349,6 +391,19 @@
 	ul.icons li {
 		display: inline-block;
 		margin-right: 26px;
+	}
+
+/*	--------------------------------------------------
+	Contact
+	-------------------------------------------------- */
+	section.contact .dots {
+		right: -160px;
+		bottom: -20px;
+		-webkit-transform: rotate(90deg);
+		   -moz-transform: rotate(90deg);
+		    -ms-transform: rotate(90deg);
+		     -o-transform: rotate(90deg);
+		        transform: rotate(90deg);
 	}
 	.formContainer {
 		margin-top: 62px;
@@ -404,10 +459,6 @@
 	.contactData .icons li {
 		margin-right: 15px;
 	}
-
-/*	--------------------------------------------------
-	Contact
-	-------------------------------------------------- */
 	section.contact .container {
 		max-width: 800px;
 	}
@@ -696,6 +747,9 @@
 	}
 
 	/* CHOOSE */
+	section.choose {
+		margin-top: 35px;
+	}
 	.sectionInfo + .sectionTitle {
 		padding-left: 0;
 	}
