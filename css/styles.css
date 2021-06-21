@@ -508,7 +508,7 @@
 	}
 
 /* MEDIA QUERIES */
-@media (min-width: 769px) and (max-width:  1160px) {
+@media (min-width: 821px) and (max-width:  1160px) {
 	main {
 		background-position: -25vw bottom;
 	}
@@ -520,13 +520,13 @@
 	}
 }
 
-@media (min-width: 769px) {
+@media (min-width: 821px) {
 	.menuMobile {
 		display: none !important;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
 	.desktop, .hideMobile {display: none !important;}
 	.mobile {display: block !important;}
 
