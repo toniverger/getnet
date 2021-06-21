@@ -7,6 +7,11 @@ function scrollToAnchor(id){
 
 $(window).on('load', function() {
 	new WOW().init();
+
+	setTimeout(function() {
+		$('.loader').fadeOut();
+	}, 200)
+
 	var scene = $('.parallax');
     $.each(scene, function(i, s) {
         var parallaxInstance = new Parallax($(s)[0], {
