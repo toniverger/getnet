@@ -108,9 +108,17 @@
 		font-weight: 500;
 		margin-left: 50px;
 		line-height: 63px;
+		-webkit-transition: .4s;
+		   -moz-transition: .4s;
+		    -ms-transition: .4s;
+		     -o-transition: .4s;
+		        transition: .4s;
 	}
 	nav a:first-child {
 		margin-left: 0;
+	}
+	nav a:hover {
+		opacity: 0.5;
 	}
 	.login {
 		background: rgba(158, 54, 103, .2);
@@ -123,6 +131,14 @@
 		color: #9E3667;
 		font-size: 123%;
 		font-weight: 600;
+		-webkit-transition: .4s;
+		   -moz-transition: .4s;
+		    -ms-transition: .4s;
+		     -o-transition: .4s;
+		        transition: .4s;
+	}
+	.login:hover {
+		background: rgba(158, 54, 103, .4);
 	}
 	.login img {
 		margin-right: 8px;
@@ -137,6 +153,16 @@
 	}
 	.social li:last-child {
 		margin-right: 0;
+	}
+	.social li a {
+		-webkit-transition: .4s;
+		   -moz-transition: .4s;
+		    -ms-transition: .4s;
+		     -o-transition: .4s;
+		        transition: .4s;
+	}
+	.social li a:hover {
+		opacity: 0.5;
 	}
 
 /*	--------------------------------------------------
@@ -182,6 +208,14 @@
 		display: inline-block;
 		padding: 13px 22px;
 		font-size: 123%;
+		-webkit-transition: .4s;
+		   -moz-transition: .4s;
+		    -ms-transition: .4s;
+		     -o-transition: .4s;
+		        transition: .4s;
+	}
+	.outlineBtn:hover {
+		background: rgba(0, 0, 0, .3);
 	}
 	.heroImage {
 		vertical-align: top;
@@ -313,6 +347,10 @@
 		border-width: 2px;
 		background: #F300131A;
 		color: #EC0000;
+	}
+	.outlineBtn.red:hover {
+		background: #EC0000;
+		color: #fff;
 	}
 
 /*	--------------------------------------------------
@@ -457,6 +495,14 @@
 		padding: 10px 22px;
 		cursor: pointer;
 		margin-top: 7px;
+		-webkit-transition: .4s;
+		   -moz-transition: .4s;
+		    -ms-transition: .4s;
+		     -o-transition: .4s;
+		        transition: .4s;
+	}
+	form button:hover {
+		opacity: 0.8;
 	}
 	.contactData {
 		display: inline-block;
@@ -492,6 +538,16 @@
 	}
 	.contactData .icons li {
 		margin-right: 15px;
+		position: relative;
+		top: 0;
+		-webkit-transition: .4s;
+		   -moz-transition: .4s;
+		    -ms-transition: .4s;
+		     -o-transition: .4s;
+		        transition: .4s;
+	}
+	.contactData .icons li:hover {
+		top: -5px;
 	}
 	section.contact .container {
 		max-width: 800px;
@@ -523,6 +579,14 @@
 		text-transform: uppercase;
 		margin-right: 45px;
 		font-weight: 600;
+		-webkit-transition: .4s;
+		   -moz-transition: .4s;
+		    -ms-transition: .4s;
+		     -o-transition: .4s;
+		        transition: .4s;
+	}
+	footer .links li a:hover {
+		opacity: 0.5;
 	}
 	footer .social {
 		position: absolute;
