@@ -317,7 +317,23 @@
 	Technology
 	-------------------------------------------------- */
 	section.technology {
-		padding-bottom: 70px;
+		padding-bottom: 50px;
+		padding-top: 120px;
+		margin-top: -20px;
+	}
+	section.technology .backgroundShape {
+		background: #EEE;
+		width: 76vw;
+		height: 100%;
+		position: absolute;
+		z-index: -1;
+		left: 0;
+		top: 0;
+		-webkit-transform: skewY(5deg);
+		   -moz-transform: skewY(5deg);
+		    -ms-transform: skewY(5deg);
+		     -o-transform: skewY(5deg);
+		        transform: skewY(5deg);
 	}
 	section.technology .dots {
 		right: 130px;
@@ -364,6 +380,20 @@
 /*	--------------------------------------------------
 	Benefits
 	-------------------------------------------------- */
+	section.benefits .backgroundShape {
+		background: transparent linear-gradient(180deg, #EC00001A 0%, #7326451A 100%) 0% 0% no-repeat padding-box;
+		width: 76vw;
+		height: 100%;
+		position: absolute;
+		z-index: -1;
+		right: 0;
+		top: 0;
+		-webkit-transform: skewY(-5deg);
+		   -moz-transform: skewY(-5deg);
+		    -ms-transform: skewY(-5deg);
+		     -o-transform: skewY(-5deg);
+		        transform: skewY(-5deg);
+	}
 	section.benefits {
 		margin-top: 130px;
 		padding-bottom: 70px;
@@ -782,6 +812,10 @@
 	}
 
 	/* TECHNOLOGY */
+	section.technology .backgroundShape {
+		width: 100%;
+		height: 80%;
+	}
 	section.technology .dots {
 		left: 0;
 		right: 0;
@@ -814,6 +848,10 @@
 	}
 
 	/* BENEFITS */
+	section.benefits .backgroundShape {
+		width: 100%;
+		height: 80%;
+	}
 	section.benefits {
 		margin-top: 104px;
 	}
