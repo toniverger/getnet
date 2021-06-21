@@ -213,6 +213,8 @@
 	section .dots {
 		position: absolute;
 		opacity: 0.5;
+		z-index: 2;
+		pointer-events: none;
 	}
 	section.enterprise .dots {
 		top: -85px;
@@ -747,6 +749,12 @@
 	}
 
 	/* CHOOSE */
+	section.choose .dots {
+		top: 0;
+		right: 0;
+		left: initial;
+		width: 150px;
+	}
 	section.choose {
 		margin-top: 35px;
 	}
@@ -763,9 +771,17 @@
 	}
 	.sectionInfo {
 		margin-top: 30px;
+		position: relative;
 	}
 
-	/* POS */
+	/* TECHNOLOGY */
+	section.technology .dots {
+		left: 0;
+		right: 0;
+		text-align: center;
+		bottom: -80px;
+		opacity: 1;
+	}
 	.sectionTitle .text {
 		font-size: 107.7%;
 		line-height: 18px;
