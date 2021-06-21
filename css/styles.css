@@ -704,10 +704,13 @@
 		margin-top: 96px;
 		text-align: center;
 	}
+	.heroImage img {
+		margin: auto;
+	}
 	.creditCards {
 		left: 0;
 		right: 0;
-		top: -60px;
+		top: -55px;
 		margin: auto;
 		text-align: center;
 	}
