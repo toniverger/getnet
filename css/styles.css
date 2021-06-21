@@ -197,6 +197,7 @@
 		display: block;
 		position: absolute;
 		left: 45%;
+		pointer-events: all !important;
 	}
 	.whatsapp {
 		display: block;
