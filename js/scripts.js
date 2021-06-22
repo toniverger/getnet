@@ -6,7 +6,15 @@ function scrollToAnchor(id){
 }
 
 $(window).on('load', function() {
-	new WOW().init();
+	new WOW({
+		callback: function(box) {
+			if($(box).hasClass('cardsList') && $(window).width() < 821) {
+				setTimeout(function() {
+					$('.cardsList').animate({scrollLeft: $('.cardsList')[0].scrollWidth}, 15000, 'linear'); 
+				}, 1000)
+			};
+		}
+	}).init();
 
 	setTimeout(function() {
 		$('.loader').fadeOut();
