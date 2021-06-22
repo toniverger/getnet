@@ -113,7 +113,7 @@
 	}
 	nav a {
 		color: #3E3E3E;
-		font-size: 123%;
+		font-size: 1rem;
 		font-weight: 500;
 		margin-left: 50px;
 		line-height: 63px;
@@ -138,7 +138,7 @@
 		margin-left: 100px;
 		margin-right: 16px;
 		color: #9E3667;
-		font-size: 123%;
+		font-size: 1rem;
 		font-weight: 600;
 		-webkit-transition: .4s;
 		   -moz-transition: .4s;
@@ -194,20 +194,19 @@
 		margin-right: 80px;
 		padding-top: 86px;
 	}
-	.heroText h3 {
-		font-size: 153.8%;
+	.heroText p.primary {
+		font-size: 1.25rem;
 		font-weight: 700;
-		margin-bottom: 10px;
 		text-transform: uppercase;
 	}
 	.heroText h1 {
-		font-size: 423%;
+		font-size: 3.4375rem;
 		font-family: 'headline', sans-serif;
 		font-weight: 700;
 		margin-bottom: 25px;
 	}
-	.heroText p {
-		font-size: 138.4%;
+	.heroText p.secondary {
+		font-size: 1.125rem;
 		line-height: 30px;
 		max-width: 300px;
 		margin-bottom: 23px;
@@ -216,7 +215,7 @@
 		border: 1px solid #fff;
 		display: inline-block;
 		padding: 13px 22px;
-		font-size: 123%;
+		font-size: 1rem;
 		-webkit-transition: .4s;
 		   -moz-transition: .4s;
 		    -ms-transition: .4s;
@@ -274,18 +273,17 @@
 		vertical-align: top;
 		width: 50%;
 	}
-	.sectionTitle h5 {
+	.sectionTitle > p {
 		color: #EC0000;
 		font-weight: 700;
-		font-size: 153.8%;
+		font-size: 1.25rem;
 		text-transform: uppercase;
 	}
-	.sectionTitle p {
+	.sectionTitle h2 {
 		font-family: 'headline', sans-serif;
 		color: #9E3667;
-		font-size: 307.7%;
+		font-size: 2.5rem;
 		max-width: 500px;
-		margin-top: 10px;
 	}
 	.sectionInfo {
 		display: inline-block;
@@ -293,10 +291,10 @@
 		width: 49%;
 	}
 	.sectionInfo p {
-		font-size: 123%;
+		font-size: 1rem;
 		color: #666;
 		line-height: 25px;
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 	}
 	.boxes {
 		margin-top: 76px;
@@ -318,7 +316,7 @@
 	}
 	.box .title {
 		color: #9E3667;
-		font-size: 138.4%;
+		font-size: 1.125rem;
 		font-weight: 700;
 		margin-top: 15px;
 		line-height: 19px;
@@ -326,7 +324,7 @@
 	.box .description {
 		margin-top: 10px;
 		color: #666;
-		font-size: 107.7%;
+		font-size: 0.875rem;
 		line-height: 20px;
 		font-family: "Microtext", sans-serif;
 	}
@@ -349,7 +347,7 @@
 	.sectionTitle li {
 		color: #3E3E3E;
 		line-height: 25px;
-		font-size: 123%;
+		font-size: 1rem;
 		margin-bottom: 20px;
 	}
 	.outlineBtn.red {
@@ -390,13 +388,13 @@
 		bottom: -42px;
 	}
 	.sectionTitle .text {
-		color: #3E3E3E;
-		font-size: 123%;
 		margin-top: 14px;
-		line-height: 25px;
-		max-width: 400px;
+		max-width: 420px;
 	}
-	.sectionTitle .text span {
+	.sectionTitle .text p {
+		color: #3E3E3E;
+		font-size: 1rem;
+		line-height: 25px;
 		display: block;
 		margin-bottom: 20px;
 	}
@@ -412,7 +410,7 @@
 		width: 100%;
 		text-align: center;
 	}
-	section.payments .sectionTitle p {
+	section.payments .sectionTitle h2 {
 		max-width: 750px;
 		margin: auto;
 	}
@@ -501,10 +499,11 @@
 		background: #9E3667;
 		border: #9E3667 1px solid;
 		color: #fff;
-		font-size: 123%;
+		font-size: 1rem;
 		padding: 10px 22px;
 		cursor: pointer;
 		margin-top: 7px;
+		font-family: 'Santander', sans-serif;
 		-webkit-transition: .4s;
 		   -moz-transition: .4s;
 		    -ms-transition: .4s;
@@ -525,7 +524,7 @@
 	.contactData h6 {
 		color: #9E3667;
 		font-weight: 700;
-		font-size: 138.4%;
+		font-size: 1.125rem;
 		margin-bottom: 15px;
 	}
 	.contactInfo {
@@ -537,7 +536,7 @@
 	.contactInfo span {
 		color: #3E3E3E;
 		font-weight: 600;
-		font-size: 115.3%;
+		font-size: 0.9375rem;
 		line-height: 38px;
 	}
 	.contactData .contactInfo + h6 {
@@ -773,15 +772,15 @@
 		text-align: center;
 		padding-top: 30px;
 	}
-	.heroText h3 {
-		font-size: 138.4%;
+	.heroText p.primary {
+		font-size: 1.125rem;
 	}
 	.heroText h1 {
-		font-size: 307.7%;
+		font-size: 2.5rem;
 		line-height: 45px;
 		margin-bottom: 10px;
 	}
-	.heroText p {
+	.heroText p.secondary {
 		max-width: 100%;
 	}
 	main .dots {
@@ -821,11 +820,11 @@
 		display: block;
 		text-align: center;
 	}
-	.sectionTitle h5 {
-		font-size: 138.4%;
+	.sectionTitle > p {
+		font-size: 1.125rem;
 	}
-	.sectionTitle p {
-		font-size: 215.4%;
+	.sectionTitle h2 {
+		font-size: 1.75rem;
 		margin: 10px auto;
 	}
 	.sectionImage {
@@ -836,7 +835,7 @@
 	}
 	.sectionInfo p {
 		line-height: 18px;
-		font-size: 107.7%;
+		font-size: 0.875rem;
 		margin-bottom: 20px;
 	}
 	.boxes .column:nth-child(even) {
@@ -865,12 +864,12 @@
 		height: 43px;
 	}
 	.box .title {
-		font-size: 123%;
+		font-size: 1rem;
 		line-height: 19px;
 		margin-top: 10px;
 	}
 	.box .description {
-		font-size: 92.3%;
+		font-size: 0.75rem;
 		line-height: 16px;
 		margin-top: 5px;
 	}
@@ -892,7 +891,7 @@
 		text-align: left;
 	}
 	.sectionTitle li {
-		font-size: 107.7%;
+		font-size: 0.875rem;
 		line-height: 18px;
 		margin-bottom: 15px;
 	}
@@ -914,10 +913,12 @@
 		opacity: 1;
 	}
 	.sectionTitle .text {
-		font-size: 107.7%;
-		line-height: 18px;
 		max-width: 90%;
 		margin: 14px auto 0;
+	}
+	.sectionTitle .text p {
+		font-size: 0.875rem;
+		line-height: 18px;
 	}
 
 	/* PAYMENTS */
@@ -934,7 +935,7 @@
 		margin: 0 12px;
 	}
 	.cardsList img {
-		height: 25px;
+		height: 35px;
 	}
 
 	/* BENEFITS */
@@ -997,7 +998,7 @@
 	}
 	.subfooter {
 		clear: both;
-		font-size: 76.9%;
+		font-size: 0.625rem;
 		padding: 9px 35px;
 		line-height: 12px;
 	}
