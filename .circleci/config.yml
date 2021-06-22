@@ -14,13 +14,13 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "dev" ]; then
               ssh bitnami@dev.houlak.com mkdir -p /home/bitnami/htdocs/dev/getnet-landing
-              rsync -qavzhe ssh ~/repo/dist/ bitnami@dev.houlak.com:/home/bitnami/htdocs/dev/getnet-landing
+              rsync -qavzhe ssh ~/repo/ bitnami@dev.houlak.com:/home/bitnami/htdocs/dev/getnet-landing
             elif [ "${CIRCLE_BRANCH}" == "qa" ]; then
               ssh bitnami@qa.houlak.com mkdir -p /home/bitnami/htdocs/qa/getnet-landing
-              rsync -qavzhe ssh ~/repo/dist/ bitnami@qa.houlak.com:/home/bitnami/htdocs/qa/getnet-landing
+              rsync -qavzhe ssh ~/repo/ bitnami@qa.houlak.com:/home/bitnami/htdocs/qa/getnet-landing
             elif [ "${CIRCLE_BRANCH}" == "master" ]; then
               ssh bitnami@getnet.com.uy mkdir -p /home/bitnami/htdocs/getnet-landing
-              rsync -qavzhe ssh ~/repo/dist/ bitnami@getnet.com.uy:/home/bitnami/htdocs/getnet-landing
+              rsync -qavzhe ssh ~/repo/ bitnami@getnet.com.uy:/home/bitnami/htdocs/getnet-landing
             fi
 
 orbs:
