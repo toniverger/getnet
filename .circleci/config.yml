@@ -19,8 +19,8 @@ jobs:
               ssh bitnami@qa.houlak.com mkdir -p /home/bitnami/htdocs/qa/getnet-landing
               rsync -qavzhe ssh ~/repo/dist/ bitnami@qa.houlak.com:/home/bitnami/htdocs/qa/getnet-landing
             elif [ "${CIRCLE_BRANCH}" == "master" ]; then
-              ssh bitnami@CHANGE_ME.com mkdir -p /home/bitnami/htdocs/getnet-landing
-              rsync -qavzhe ssh ~/repo/dist/ bitnami@CHANGE_ME.com:/home/bitnami/htdocs/getnet-landing
+              ssh bitnami@getnet.com.uy mkdir -p /home/bitnami/htdocs/getnet-landing
+              rsync -qavzhe ssh ~/repo/dist/ bitnami@getnet.com.uy:/home/bitnami/htdocs/getnet-landing
             fi
 
 orbs:
