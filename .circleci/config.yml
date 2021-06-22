@@ -1,0 +1,41 @@
+version: 2.1
+jobs:
+  build-and-deploy:
+    working_directory: ~/repo
+    docker:
+      - image: rohara/node:6.10.3-rsync
+    steps:
+      - checkout
+
+      # add ssh fingerprint
+      - run: echo 'dev.houlak.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJX+kw/rWuQCM6NR6fMvov74RufclN0OjZHNw8HekzHYeGziwYsGvl8T+ZoXEYWS1n8Pp1FWvMw2TjrVVpPiAVs=' >> ~/.ssh/known_hosts
+      - run: echo 'qa.houlak.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJX+kw/rWuQCM6NR6fMvov74RufclN0OjZHNw8HekzHYeGziwYsGvl8T+ZoXEYWS1n8Pp1FWvMw2TjrVVpPiAVs=' >> ~/.ssh/known_hosts
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "dev" ]; then
+              ssh bitnami@dev.houlak.com mkdir -p /home/bitnami/htdocs/dev/getnet-landing
+              rsync -qavzhe ssh ~/repo/dist/ bitnami@dev.houlak.com:/home/bitnami/htdocs/dev/getnet-landing
+            elif [ "${CIRCLE_BRANCH}" == "qa" ]; then
+              ssh bitnami@qa.houlak.com mkdir -p /home/bitnami/htdocs/qa/getnet-landing
+              rsync -qavzhe ssh ~/repo/dist/ bitnami@qa.houlak.com:/home/bitnami/htdocs/qa/getnet-landing
+            elif [ "${CIRCLE_BRANCH}" == "master" ]; then
+              ssh bitnami@CHANGE_ME.com mkdir -p /home/bitnami/htdocs/getnet-landing
+              rsync -qavzhe ssh ~/repo/dist/ bitnami@CHANGE_ME.com:/home/bitnami/htdocs/getnet-landing
+            fi
+
+orbs:
+  jira: circleci/jira@1.1.3
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build-and-deploy:
+          filters:
+            branches:
+              only:
+                - dev
+                - qa
+                - master
+          post-steps:
+            - jira/notify:
+                job_type: build
