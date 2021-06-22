@@ -23,8 +23,6 @@ jobs:
               rsync -qavzhe ssh ~/repo/ bitnami@getnet.com.uy:/home/bitnami/htdocs/getnet-landing
             fi
 
-orbs:
-  jira: circleci/jira@1.1.3
 workflows:
   version: 2
   build-and-deploy:
@@ -36,6 +34,4 @@ workflows:
                 - dev
                 - qa
                 - master
-          post-steps:
-            - jira/notify:
-                job_type: build
+
