@@ -1,21 +1,24 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import {pageValidate} from './pages/Validate';
-import { pageConfirm} from '../src/pages/Confirm';
+import React from "react";
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import { Confirm } from "./pages/Confirm";
+import { Validate } from "./pages/Validate";
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Router path="/"></Router>
-        <Route path="/validate">
-          <pageValidate />
-        </Route>
-        <Route path="/">
-          <pageConfirm />
-        </Route>
-      </Switch>
-    </Router>
+    <div>
+      <pageValidate></pageValidate>
+      <Router>
+        <Switch>
+         <Route path="/validate" component={Validate} />
+          <Route path="/" component={Confirm} />
+        </Switch>
+      </Router>
+    </div>
   );
 }
 
