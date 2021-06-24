@@ -1,11 +1,8 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
-const navBar = ()=> {
-    return(
-        <div>
-        </div>
-    )
-}
+const navBar = () => {
+  return <div></div>;
+};
 
 export default navBar;
