@@ -111,6 +111,10 @@
 	nav {
 		display: inline-block;
 	}
+
+	nav a.logo {
+		vertical-align: middle;
+	}
 	nav a {
 		color: #3E3E3E;
 		font-size: 1rem;
