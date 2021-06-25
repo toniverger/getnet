@@ -34,7 +34,9 @@ export const Form = () => {
           </Link>{" "}
         </span>
       </label>
+      <div className="container-btnContinue">
       <button className="btnContinue">Continuar > </button>
+      </div>
     </form>
   );
 };
