@@ -95,7 +95,7 @@
 /*	--------------------------------------------------
 	Navbar
 	-------------------------------------------------- */
-	menu {
+	.menu {
 		width: 100%;
 		height: 63px;
 		background: #fff;
@@ -107,6 +107,12 @@
 		        box-shadow: #00000029 0px 3px 6px;
 		-webkit-border-radius: 0 4px 4px 0;
 		        border-radius: 0 4px 4px 0;
+	}
+	.menu .logo {
+		display: inline-block;
+		vertical-align: 23px;
+		margin-right: 20px;
+		max-width: 120px;
 	}
 	nav {
 		display: inline-block;
@@ -192,6 +198,10 @@
 		position: absolute;
 		top: 0;
 		right: 0;
+	}
+	main .container {
+		max-width: 1440px;
+		padding: 0;
 	}
 	.heroText {
 		max-width: 420px;
@@ -582,7 +592,16 @@
 		margin-top: 108px;
 		text-align: center;
 		position: relative;
-		z-index: 4;
+	}
+	footer .logo {
+		position: absolute;
+		left: 10px;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		   -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		     -o-transform: translateY(-50%);
+		        transform: translateY(-50%);
 	}
 	footer .links {
 		padding: 44px 10px 31px;
@@ -619,17 +638,38 @@
 	}
 
 /* MEDIA QUERIES */
+@media (min-width: 1440px) {
+	main .r:not(.mobile) {
+		width: 50%;
+	}
+	.heroText {
+		margin: auto;
+	}
+}
+
 @media (min-width: 821px) and (max-width: 930px) {
 	.login {
-		margin-left: 20px;
+		margin-left: 10px;
+		padding: 26px 15px;
 	}
 	nav a {
-		margin-left: 30px;
+		margin-left: 20px;
+		font-size: .8125rem;
 	}
 	.heroText {
 		max-width: 380px;
 	}
 }
+
+@media (min-width: 931px) and (max-width: 1075px) {
+	.login {
+		margin-left: 40px;
+	}
+	nav a {
+		margin-left: 20px;
+	}
+}
+
 @media (min-width: 821px) and (max-width: 1160px) {
 	main .r:first-child {
 		width: 57%;
@@ -652,12 +692,23 @@
 	/* NAVBAR */
 	nav,
 	.login,
-	menu .social {
+	.menu .social {
 		display: none;
 	}
-	.openMenu menu {
+	.openMenu .menu {
 		-webkit-box-shadow: #00000029 0px 3px 6px;
 		        box-shadow: #00000029 0px 3px 6px;
+	}
+	.menu .logo {
+		width: 64px;
+		position: absolute;
+		left: 38px;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		   -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		     -o-transform: translateY(-50%);
+		        transform: translateY(-50%);
 	}
 	.menuBtn {
 		width: 26px;
@@ -992,6 +1043,15 @@
 	/* FOOTER */
 	footer {
 		margin-top: 52px;
+	}
+	footer .logo {
+		left: 33px;
+		top: 25px;
+		-webkit-transform: none;
+		   -moz-transform: none;
+		    -ms-transform: none;
+		     -o-transform: none;
+		        transform: none;
 	}
 	footer .social {
 		position: relative;
