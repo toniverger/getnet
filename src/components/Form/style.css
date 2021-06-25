@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  border: 0px;
+}
 .form {
   width: 100%;
   display: flex;
@@ -27,6 +31,13 @@
   height: 70vh;
   display: flex;
   flex-direction: column;
+}
+.container-btnContinue {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btnContinue {
   width: 126px;
@@ -81,16 +92,24 @@
     height: 80vh;
   }
 
+  .container-btnContinue {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .btnContinue {
     position: fixed;
     bottom: 0px;
     right: opx;
-    width: 100%;
+    width: 90%;
     height: 43px;
-    color: #fff;
+    color: #f30013;
     font-size: 16px;
-    background-color: #ec0000;
+    background-color: #fff;
     border: 1px solid #f30013;
     opacity: 1;
+    margin: 0px  auto ;
   }
 }
