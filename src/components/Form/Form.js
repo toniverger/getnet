@@ -1,8 +1,12 @@
 import React from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import Inputs from "../Inputs/Inputs";
 import "./style.css";
 import { Link } from "react-router-dom";
 export const Form = () => {
+  const onChange = () => {
+    console.log("reCaptch ok");
+  };
   return (
     <form className="form">
       <h1 className="title">¡Gracias por querer ser parte de empresa!</h1>
@@ -15,7 +19,10 @@ export const Form = () => {
         <Inputs placeholder="Nombre y Apellido" />
         <Inputs placeholder="Celular" />
         <Inputs placeholder="Email" />
-        <Inputs />
+        <ReCAPTCHA
+          sitekey="6Le-TFcbAAAAAEQ0K_e0xBLDvdS5Fj8NYgadM8fD"
+          onChange={onChange}
+        />
       </div>
       <input type="checkbox"></input>
       <label className="labelCheckbox">
