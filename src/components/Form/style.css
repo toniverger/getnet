@@ -48,6 +48,10 @@
   border: 1px solid #f30013;
   opacity: 1;
 }
+.link-btnContinue {
+  text-decoration: none;
+  color: #fff;
+}
 .container-inputs {
   display: inline-block;
   width: 70%;
