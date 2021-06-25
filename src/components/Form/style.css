@@ -1,0 +1,96 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font: normal normal normal 30px/34px Santander Headline;
+  letter-spacing: 0px;
+  color: #ec0000;
+  opacity: 1;
+}
+.subtitle {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-20)
+    var(--unnamed-font-family-santander-micro-text);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  font: normal normal normal 16px/20px Santander Micro Text;
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
+}
+
+.container-second {
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+.btnContinue {
+  width: 126px;
+  height: 43px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #ec0000;
+  border: 1px solid #f30013;
+  opacity: 1;
+}
+.container-inputs {
+  display: inline-block;
+  width: 70%;
+  height: 40vh;
+}
+.labelCheckbox {
+  color: #666666;
+}
+.inputForm {
+  margin: 22px 10px auto 10px;
+  color: gray;
+  width: 352px;
+  height: 40px;
+  background: #eeeeee;
+  opacity: 1;
+  border-style: none;
+}
+.link-conditions {
+  color: #9e3667;
+}
+
+@media screen and (max-width: 991px) {
+  .container-inputs {
+    display: inline-block;
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container-inputs {
+    display: inline-block;
+    width: 100%;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container-inputs {
+    display: inline-block;
+    width: 100%;
+    height: 80vh;
+  }
+
+  .btnContinue {
+    position: fixed;
+    bottom: 0px;
+    right: opx;
+    width: 100%;
+    height: 43px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #ec0000;
+    border: 1px solid #f30013;
+    opacity: 1;
+  }
+}
