@@ -16,6 +16,10 @@
   display: flex;
 }
 
+.stepsAndForm {
+  display: flex;
+  flex-direction: column;
+}
 /*resposive*/
 
 @media screen and (max-width: 991px) {
