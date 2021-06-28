@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import Adress from "./pages/Adress";
 import Confirm from "./pages/Confirm";
 import { Datas } from "./pages/Datas";
+import Documentation from "./pages/Documentation";
 import { Validate } from "./pages/Validate";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Router>
         <Switch>
+          <Route path="/docs" component={Documentation} />
           <Route path="/adress" component={Adress} />
           <Route path="/validate" component={Validate} />
           <Route path="/confirm" component={Confirm} />
