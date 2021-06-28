@@ -8,31 +8,8 @@
   flex-direction: column;
 margin-top: 5px; 
 }
-hr {
-  height: 1px ;
-  border: 0;
-  background-color: #8d8080;
-  opacity: 0,5;
-}
 
-.title {
-  font: normal normal normal 30px/34px Santander Headline;
-  letter-spacing: 0px;
-  color: #ec0000;
-  opacity: 1;
-  margin-top: 30px;
-}
-.subtitle {
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
-    var(--unnamed-line-spacing-20)
-    var(--unnamed-font-family-santander-micro-text);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  font: normal normal normal 16px/20px Santander Micro Text;
-  letter-spacing: 0px;
-  color: #3e3e3e;
-  opacity: 1;
-}
+
 
 .container-second {
   width: 70%;
