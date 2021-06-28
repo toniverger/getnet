@@ -1,7 +1,6 @@
 import React from 'react';
 import Pages from '../components/structure/Pages';
 
-import { Form } from '../components/Form/Form';
 import Steps from '../components/Steps/Steps';
 import empresa from "../images/icon-empresa-active.svg";
 import validar from "../images/icon-validar-active.svg";
