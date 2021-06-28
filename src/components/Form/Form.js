@@ -16,7 +16,6 @@ export const Form = () => {
 
   return (
     <form className="form">
-    
       <div className="container-inputs">
         <Inputs placeholder="Numero de Rut" />
         <Inputs placeholder="Nombre fantasia" type="text" />
