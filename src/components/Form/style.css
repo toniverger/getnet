@@ -15,16 +15,9 @@
   display: flex;
   flex-direction: column;
 }
-.container-btnContinue {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .container-inputs {
-  padding: 20px;
+
   position: relative;
   display: inline-block;
   width: 70%;
@@ -32,7 +25,6 @@
 }
 .captcha {
   width: 90%;
-
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
@@ -50,27 +42,48 @@
   color: #9e3667;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .container-inputs {
-    display: inline-block;
+    display: flex;
     width: 100%;
     height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .captcha {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .container-inputs {
-    display: inline-block;
-    width: 100%;
-    height: 80vh;
+    display: flex;
+    width: 80%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .captcha {
-    width: 100%;
+    width: 70%;
     display: inline-block;
     flex-direction: column;
-    margin-top: 32px;
+    margin-top: 52px;
     justify-content: center;
   }
+  div.input-mail {
+   margin-top: 200px;
+  }
+ 
 }
 
 @media screen and (max-width: 479px) {
