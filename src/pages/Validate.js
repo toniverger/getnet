@@ -16,8 +16,12 @@ export const Validate = () => {
             <Pages content={
                 <>
                     <Steps empresa={empresa} validar={validar} confirmar={confirmar} />
+                    <hr></hr>
                     <Text title="Ingresa el código que te enviamos a tu celular" subtitle="Lo enviamos al 090 000 000 para confirmar que te pertenece" />
+                    <hr></hr>
+                    <div className="container-btnContinue">
                     <Button text="Continuar >" to="/confirm" />
+                    </div>
                 </>
             } />
         </>

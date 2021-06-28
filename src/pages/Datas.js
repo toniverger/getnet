@@ -14,6 +14,7 @@ export const Datas = () => {
       content={
         <>
           <Steps empresa={empresa} validar={validar} confirmar={confirmar} />
+          <hr></hr>
           <Text
             title="¡Gracias por querer ser parte de empresa!"
             subtitle="Ahora sólo necesitamos que completes algunos datos sobre ti y tu empresa"
