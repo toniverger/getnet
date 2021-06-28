@@ -12,7 +12,7 @@ import { Button } from '../components/Buttons/continue/Button';
 
 export const Validate = () => {
     return (
-        <div>
+        <>
             <Pages content={
                 <>
                     <Steps empresa={empresa} validar={validar} confirmar={confirmar} />
@@ -20,6 +20,6 @@ export const Validate = () => {
                     <Button text="Continuar >" to="/confirm" />
                 </>
             } />
-        </div>
+        </>
     )
 }
