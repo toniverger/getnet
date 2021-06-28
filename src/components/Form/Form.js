@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import Inputs from "../Inputs/Inputs";
-import "./style.css";
+import { Button } from "../Buttons/continue/Button";
 import { Link } from "react-router-dom";
+import "./style.css";
 export const Form = () => {
   const captcha = useRef(null);
 
@@ -42,12 +43,7 @@ export const Form = () => {
         </span>
       </label>
       <div className="container-btnContinue">
-        <button className="btnContinue">
-          <Link to="/validate" className="link-btnContinue">
-            {" "}
-            Continuar >
-          </Link>{" "}
-        </button>
+        <Button  to="/validate" text="Continuar >" />
       </div>
     </form>
   );
