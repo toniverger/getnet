@@ -79,25 +79,4 @@
     width: 100%;
     height: 80vh;
   }
-
-  .container-btnContinue {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .btnContinue {
-    position: fixed;
-    bottom: 0px;
-    right: opx;
-    width: 90%;
-    height: 43px;
-    color: #f30013;
-    font-size: 16px;
-    background-color: #fff;
-    border: 1px solid #f30013;
-    opacity: 1;
-    margin: 0px auto;
-  }
 }
