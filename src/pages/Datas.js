@@ -13,7 +13,7 @@ export const Datas = () => {
     <Pages
       content={
         <>
-          <Steps empresa={empresa} validar={validar} confirmar={confirmar} />
+          <Steps src1={empresa} src2={validar} src3={confirmar} />
           <hr></hr>
           <Text
             title="¡Gracias por querer ser parte de empresa!"
