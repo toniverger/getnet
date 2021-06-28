@@ -32,6 +32,7 @@ export const Form = () => {
           onChange={onChange}
         />
       </div>
+      <div className="container-terms">
       <input type="checkbox"></input>
       <label className="labelCheckbox">
         Acepto los{" "}
@@ -42,6 +43,7 @@ export const Form = () => {
           </Link>{" "}
         </span>
       </label>
+      </div>
       <div className="container-btnContinue">
         <Button  to="/validate" text="Continuar >" />
       </div>

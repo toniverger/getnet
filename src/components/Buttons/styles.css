@@ -1,3 +1,10 @@
+.container-btnContinue {
+  width: 65%;
+  height: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .btnContinue {
   width: 126px;
   height: 43px;
