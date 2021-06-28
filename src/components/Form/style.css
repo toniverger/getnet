@@ -17,7 +17,6 @@
 }
 
 .container-inputs {
-
   position: relative;
   display: inline-block;
   width: 70%;
@@ -37,6 +36,7 @@
   flex-direction: column;
   position: absolute;
 }
+
 
 .link-conditions {
   color: #9e3667;
