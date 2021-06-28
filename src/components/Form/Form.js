@@ -16,11 +16,7 @@ export const Form = () => {
 
   return (
     <form className="form">
-      <hr></hr>
-      <h1 className="title">¡Gracias por querer ser parte de empresa!</h1>
-      <p className="subtitle">
-        Ahora sólo necesitamos que completes algunos datos sobre ti y tu empresa
-      </p>
+    
       <div className="container-inputs">
         <Inputs placeholder="Numero de Rut" />
         <Inputs placeholder="Nombre fantasia" type="text" />
@@ -43,7 +39,6 @@ export const Form = () => {
           </Link>{" "}
         </span>
       </label>
-      <hr/>
       <div className="container-btnContinue">
         <button className="btnContinue">
           <Link to="/validate" className="link-btnContinue">
