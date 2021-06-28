@@ -200,7 +200,7 @@
 		right: 0;
 	}
 	main .container {
-		max-width: 1440px;
+		max-width: 1070px;
 		padding: 0;
 	}
 	.heroText {
@@ -642,9 +642,6 @@
 	main .r:not(.mobile) {
 		width: 50%;
 	}
-	.heroText {
-		margin: auto;
-	}
 }
 
 @media (min-width: 821px) and (max-width: 930px) {
@@ -670,7 +667,7 @@
 	}
 }
 
-@media (min-width: 821px) and (max-width: 1160px) {
+@media (min-width: 821px) and (max-width: 1439px) {
 	main .r:first-child {
 		width: 57%;
 	}
@@ -700,7 +697,6 @@
 		        box-shadow: #00000029 0px 3px 6px;
 	}
 	.menu .logo {
-		width: 64px;
 		position: absolute;
 		left: 38px;
 		top: 50%;
