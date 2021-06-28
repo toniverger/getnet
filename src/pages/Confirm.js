@@ -12,7 +12,7 @@ const Confirm = () => {
         <div>
             <Pages content={
                 <>
-                    <Steps src1={empresa} src2={validar} src3={confirmar} />
+                    <Steps  text1="1- Datos de la empresa" text2="2 - Validar número de celular" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
                     <hr></hr>
                     <Text title="¡Listo!" />
                     <Text title="Creaste tu cuenta en Empresa" subtitle="Para que tu comercio quede operativo deberás completar otros datos." />
