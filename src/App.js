@@ -4,6 +4,7 @@ import Adress from "./pages/Adress";
 import Confirm from "./pages/Confirm";
 import { Datas } from "./pages/Datas";
 import Documentation from "./pages/Documentation";
+import Review from "./pages/Review";
 import { Validate } from "./pages/Validate";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div>
       <Router>
         <Switch>
+          <Route path="/review" component={Review} />
           <Route path="/docs" component={Documentation} />
           <Route path="/adress" component={Adress} />
           <Route path="/validate" component={Validate} />
