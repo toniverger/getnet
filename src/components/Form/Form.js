@@ -44,6 +44,7 @@ export const Form = () => {
         </span>
       </label>
       </div>
+      <hr></hr>
       <div className="container-btnContinue">
         <Button  to="/validate" text="Continuar >" />
       </div>
