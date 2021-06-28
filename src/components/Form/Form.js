@@ -21,8 +21,11 @@ export const Form = () => {
         <Inputs placeholder="Nombre fantasia" type="text" />
         <Inputs placeholder="Nombre y Apellido" type="text" />
         <Inputs placeholder="Celular" />
-        <Inputs placeholder="Email" type="email" />
+        <div className="input-mail">
+          <Inputs placeholder="Email" type="email" />
+        </div>
         <ReCAPTCHA
+          className="captcha"
           ref={captcha}
           sitekey="6Le-TFcbAAAAAEQ0K_e0xBLDvdS5Fj8NYgadM8fD"
           onChange={onChange}
