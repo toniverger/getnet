@@ -1,0 +1,28 @@
+/**styles globales/
+
+/*input code page validate*/
+.form-code {
+    height: 200px;
+   
+    padding: 0px 30px 30px 30px;
+  }
+  .input-code {
+    background-color: #EEEEEE;
+    width: 70px;
+    height: 30px;
+    margin: 30px;
+  }
+  .link-submit-code {
+    color: #9E3667;
+  }
+  #new-code {
+    margin: 70px 0px;
+  }
+
+  /*styles globales*/
+  .gray {
+    color: #666666;
+  }
+  .violet {
+    color: #9E3667;
+  }
