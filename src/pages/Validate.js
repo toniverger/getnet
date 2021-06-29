@@ -25,7 +25,7 @@ export const Validate = () => {
                         <input className="input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
                         <input className="input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
                         <input className="input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
-                        <p id="new-code" className="gray">¿No te llegó el código?<Link  to="#" className="violet">Volver a enviar</Link></p>
+                        <p id="new-code" className="gray">¿No te llegó el código?<Link to="#" className="violet">Volver a enviar</Link></p>
                     </form>
                     <hr></hr>
                     <div className="container-btnContinue">

@@ -1,28 +1,70 @@
 /**styles globales/
 
+
 /*input code page validate*/
 .form-code {
-    height: 200px;
-   
-    padding: 0px 30px 30px 30px;
-  }
-  .input-code {
-    background-color: #EEEEEE;
-    width: 70px;
-    height: 30px;
-    margin: 30px;
-  }
-  .link-submit-code {
-    color: #9E3667;
-  }
-  #new-code {
-    margin: 70px 0px;
-  }
+  height: 200px;
+  padding: 0px 30px 30px 30px;
+}
+.input-code {
+  background-color: #eeeeee;
+  width: 70px;
+  height: 30px;
+  margin: 30px;
+}
+.link-submit-code {
+  color: #9e3667;
+}
+#new-code {
+  margin: 70px 0px;
+}
+/* page adress*/
+.input-adress {
+  background-color: #eeeeee;
+  width: 70px;
+  height: 30px;
+  margin: 10px;
+}
+.input-adress_select {
+  background-color: #eeeeee;
+  width: 180px;
+  height: 30px;
+  margin: 10px;
+}
+#form-adress {
+  width: 60%;
+  height: 100px;
+  padding: 30px 30px 30px 30px;
+  display: inline-block;
+}
+.salesOperations {
+  width: 60%;
+  height: 100px;
+  padding: 30px 30px 30px 30px;
+}
+.btn-round {
+  background-color: #ec00000d;
+  border: 1px solid #ec0013;
+  padding: 10px;
+  border-radius: 23px;
+  color: #ec0000;
+  margin: 10px;
+}
+.btn-round_active {
+  background-color: #910009;
+  color: #ffffff;
+  border: 1px solid #ec0013;
+  padding: 10px;
+  border-radius: 23px;
+}
 
-  /*styles globales*/
-  .gray {
-    color: #666666;
-  }
-  .violet {
-    color: #9E3667;
-  }
+/*styles globales*/
+.gray {
+  color: #666666;
+}
+.violet {
+  color: #9e3667;
+}
+.black {
+  color: #3e3e3e;
+}
