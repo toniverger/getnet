@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="73.059" height="57" viewBox="0 0 73.059 57"><defs><style>.a{fill:rgba(236,0,0,0.05);}.b{fill:#ec0000;}</style></defs><g transform="translate(-161 -1096)"><rect class="a" width="47" height="47" transform="translate(161 1096)"/><g transform="translate(4.727 -1.164)"><path class="b" d="M51.172,50.48H24.5V48.226H51.172Z" transform="translate(159.543 1103.683)"/><path class="b" d="M50.268,42.37H24.817V40.219H50.268Z" transform="translate(159.833 1096.396)"/><path class="b" d="M27.271,39.934H43.35V37.786H27.271Z" transform="translate(162.066 1094.182)"/><path class="b" d="M39.3,37.712h-2.43v2.43H39.3Z" transform="translate(170.801 1094.115)"/><path class="b" d="M27.247,37.712h-2.43v2.43h2.43Z" transform="translate(159.833 1094.115)"/><path class="b" d="M33.113,44.151H30.687v2.427h2.427Z" transform="translate(165.175 1099.975)"/><path class="b" d="M14.75,22.25V66.265H42.931V64.011H17V24.5H76.407V64.011H49.871v2.255H78.662V22.25Z" transform="translate(150.671 1083.75)"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 53.6 57" style="enable-background:new 0 0 53.6 57;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1162.4708" y1="55.9995" x2="-1162.4708" y2="-0.9995" gradientTransform="matrix(-1 0 0 -1 -1135.6908 56)">
+	<stop  offset="0" style="stop-color:#EC0000"/>
+	<stop  offset="1" style="stop-color:#9E3667"/>
+</linearGradient>
+<polygon class="st0" points="0,0 53.6,0 53.6,57 0,57 "/>
+<g>
+	<path class="st1" d="M26.6,51C14.2,51,4.1,40.9,4.1,28.5C4.1,16.1,14.2,6,26.6,6c6,0,11.7,2.3,15.9,6.6l-1.3,1.3
+		c-3.9-3.9-9.1-6-14.6-6c-11.4,0-20.6,9.3-20.6,20.6s9.3,20.6,20.6,20.6c11.4,0,20.6-9.3,20.6-20.6c0-2.8-0.5-5.5-1.6-8l1.7-0.7
+		c1.2,2.8,1.8,5.7,1.8,8.8C49.1,40.9,39,51,26.6,51z"/>
+	<path class="st1" d="M44.6,20.8c-2.7,0-4.9-2.2-4.9-4.9s2.2-4.9,4.9-4.9c2.7,0,4.9,2.2,4.9,4.9S47.3,20.8,44.6,20.8z M44.6,12.9
+		c-1.7,0-3.1,1.4-3.1,3.1s1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1S46.4,12.9,44.6,12.9z"/>
+</g>
+<g transform="translate(4.727 -1.164)">
+	<path class="st1" d="M27.5,39.5H16.6v-0.9h10.9V39.5z"/>
+	<path class="st1" d="M27.2,33.2H16.9v-0.9h10.4V33.2z"/>
+	<path class="st1" d="M18.8,31.3h6.5v-0.9h-6.5V31.3z"/>
+	<path class="st1" d="M27.2,30.4h-1v1h1V30.4z"/>
+	<path class="st1" d="M17.9,30.4h-1v1h1V30.4z"/>
+	<path class="st1" d="M22.4,35.4h-1v1h1L22.4,35.4z"/>
+	<path class="st1" d="M9,19.9v17.9h11.5v-0.9H10V20.8h24.2v16.1H23.3v0.9h11.7V19.9H9z"/>
+</g>
+</svg>
