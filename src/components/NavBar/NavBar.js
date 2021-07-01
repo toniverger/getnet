@@ -3,6 +3,7 @@ import "./styles.css";
 import user from "../../images/user.svg";
 import facebook from '../../images/facebook.svg';
 import instagram from '../../images/instagram.svg';
+import linkedin from '../../images/linkedin.svg';
 
 const NavBar = () => {
   return (
@@ -13,8 +14,8 @@ const NavBar = () => {
       </button>
       <div className="container-icons">
       <img src={facebook} />
+      <img src={linkedin} />
       <img src={instagram} />
-      <img src={facebook} />
       </div>
     </div>
   );
