@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../components/global.css';
 
-import Pages from '../components/structure/Pages';
+import Page from '../components/structure/Pages';
 
 import Steps from '../components/Steps/Steps';
 import empresa from "../images/icon-empresa-active.svg";
@@ -15,7 +15,7 @@ import { Button } from '../components/Buttons/continue/Button';
 export const Validate = () => {
     return (
         <>
-            <Pages content={
+            <Page content={
                 <>
                     <Steps text1="1- Datos de la empresa" text2="2 - Validar número de celular" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
                     <hr></hr>

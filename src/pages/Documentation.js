@@ -1,5 +1,5 @@
 import React from 'react';
-import Pages from '../components/structure/Pages';
+import Page from '../components/structure/Pages';
 import Steps from '../components/Steps/Steps';
 import Text from '../components/Texts/Text';
 import { Button } from '../components/Buttons/continue/Button';
@@ -11,7 +11,7 @@ import info from '../images/info.svg';
 
 const Documentation = () => {
     return (
-        <Pages content={
+        <Page content={
             <>
                 <Steps text1="4 - Información del domicilio y operativa de venta" text2="5 - Rubro, información fiscal y documentación" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <Text title="Rubro, información fiscal y documentación" />
