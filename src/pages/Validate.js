@@ -21,10 +21,10 @@ export const Validate = () => {
                     <hr></hr>
                     <Text title="Ingresa el código que te enviamos a tu celular" subtitle="Lo enviamos al 090 000 000 para confirmar que te pertenece" />
                     <form id="form" className="form-code">
-                        <input className="input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required autoFocus></input>
-                        <input className="input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
-                        <input className="input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
-                        <input className="input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
+                        <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required autoFocus></input>
+                        <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
+                        <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
+                        <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
                         <p id="new-code" className="gray">¿No te llegó el código?<Link to="#" className="violet">Volver a enviar</Link></p>
                     </form>
                     <hr></hr>
