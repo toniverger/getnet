@@ -23,8 +23,9 @@
   position: relative;
   display: inline-block;
   width: 70%;
-  height: 30vh;
-  padding: 40px;
+  height: 25vh;
+  padding: 40px 0px;
+  margin-left: 100px;
 }
 .captcha {
   width: 90%;
@@ -34,6 +35,7 @@
 }
 .labelCheckbox {
   color: #8d8080;
+  margin: 10px;
 }
 .input-mail {
   display: flex;
@@ -41,9 +43,11 @@
   position: absolute;
 }
 .container-terms {
+  width: 50%;
   height: 70px;
   display: flex;
   align-items: center;
+  padding: 0px 110px;
 }
 
 .link-conditions {

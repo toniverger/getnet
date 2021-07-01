@@ -1,14 +1,14 @@
 .Steps {
-  width: 100%;
+  width: 85%;
   height: 80px;
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
 .encloseSteps {
-  width: 30%;
+  width: 25%;
   height: 80px;
-  margin: auto;
+  margin-right: 10px;
 }
 .text_tel {
   color: #9e3667;

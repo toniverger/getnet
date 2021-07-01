@@ -1,12 +1,12 @@
 .title {
-  padding: 30px 20px 5px 60px;
+  padding: 30px 20px 5px 100px;
   font: normal normal normal 30px/34px Santander Headline;
   letter-spacing: 0px;
   color: #ec0000;
   opacity: 1;
 }
 .subtitle {
-  padding: 0px 20px 5px 60px;
+  padding: 0px 20px 5px 105px;
   font: var(--unnamed-font-style-normal) normal
     var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
     var(--unnamed-line-spacing-20)
