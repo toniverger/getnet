@@ -113,6 +113,13 @@
 }
 
 /*styles globales*/
+
+hr {
+  width: 80%;
+  border-top: 1px solid #a2a2a2; 
+  height:2;
+  }
+  
 .gray {
   color: #666666;
 }
