@@ -13,7 +13,7 @@ const Adress = () => {
         <Page content={
             <>
                 <Steps text1="4 - Información del domicilio y operativa de venta" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
-               <hr></hr>
+                <hr></hr>
                 <Text title="Completá los datos del domicilio y operativa de venta" />
                 <form id="form-adress">
                     <p className="black">Domicilio principal:</p>
@@ -26,11 +26,11 @@ const Adress = () => {
                     <input className="input-adress" placeholder="manzana"></input>
                 </form>
                 <div className="salesOperations">
-                <p className="black">Operativa de venta:</p>
-                <p className="gray">(Debes seleccionar al menos una opción)</p>
-                <button className="btn-round_active">Venta con tarjeta presente</button>
-                <button className="btn-round">Venta telefónica</button>
-                <button className="btn-round">Venta por internet</button>
+                    <p className="black">Operativa de venta:</p>
+                    <p className="gray">(Debes seleccionar al menos una opción)</p>
+                    <button className="btn-round_active">Venta con tarjeta presente</button>
+                    <button className="btn-round">Venta telefónica</button>
+                    <button className="btn-round">Venta por internet</button>
                 </div>
                 <hr></hr>
                 <div className="container-btnContinue">
@@ -45,7 +45,7 @@ export default Adress;
 
 /*
 <select
-                       
+
                         </option>
                         <option value="todos">Seleccionar</option>
                         <option value="2">Artigas</option>

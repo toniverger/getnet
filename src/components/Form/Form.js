@@ -33,20 +33,20 @@ export const Form = () => {
         />
       </div>
       <div className="container-terms">
-      <input type="checkbox"></input>
-      <label className="labelCheckbox">
-        Acepto los{" "}
-        <span>
-          <Link to="/validate" className="link-conditions">
-            {" "}
-            Terminos y condiciones
-          </Link>{" "}
-        </span>
-      </label>
+        <input type="checkbox"></input>
+        <label className="labelCheckbox">
+          Acepto los{" "}
+          <span>
+            <Link to="/validate" className="link-conditions">
+              {" "}
+              Terminos y condiciones
+            </Link>{" "}
+          </span>
+        </label>
       </div>
       <hr></hr>
       <div className="container-btnContinue">
-        <Button  to="/validate" text="Continuar >" />
+        <Button to="/validate" text="Continuar >" />
       </div>
     </form>
   );
