@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import wpp from '../images/icon-wpp-white.svg';
 import tel from '../images/icon-tel-white.svg';
 import instagram from '../images/icon-ig-white.svg';
@@ -12,7 +13,10 @@ const Review = () => {
                 <h1 className="white congrats ">¡Felicidades! <br></br> Estamos revisando tus datos</h1>
                 <p className="delay white font18">Esto puede demorar entre 24 y 48 horas.</p>
                 <p className="delay white font18">Cuando esté todo listo te confirmaremos por las vías de contacto solicitadas.</p>
-                <button className="btn-back white">Volver al inicio</button>
+                <button className="btn-back">
+                    <Link to="/" className="white"> 
+                    Volver al inicio
+                    </Link></button>
             </div>
             <div className="review-contact">
                 <div className="questions">
