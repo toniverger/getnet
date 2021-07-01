@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <div className="container-nav">
       <button className="btnClient">
-        <img src={user} alt="logo" />
+        <img src={user} alt="logo-user" />
         &nbsp; Hacete cliente
       </button>
       <div className="container-icons">
