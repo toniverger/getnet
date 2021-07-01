@@ -1,5 +1,5 @@
 import React from "react";
-import Pages from "../components/structure/Pages";
+import Page from "../components/structure/Pages";
 import { Form } from "../components/Form/Form";
 import Steps from "../components/Steps/Steps";
 import Text from "../components/Texts/Text";
@@ -10,7 +10,7 @@ import confirmar from "../images/icon-confirm-disabled.svg";
 
 export const Datas = () => {
   return (
-    <Pages
+    <Page
       content={
         <>
           <Steps text1="1- Datos de la empresa" text2="2 - Validar número de celular" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
