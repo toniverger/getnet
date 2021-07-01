@@ -17,13 +17,13 @@ const Adress = () => {
                 <Text title="Completá los datos del domicilio y operativa de venta" />
                 <form id="form-adress">
                     <p className="black">Domicilio principal:</p>
-                    <input className="input-adress input-select" type="select" placeholder="Seleccioná Departamento *" required ></input>
-                    <input className="input-adress input-select" placeholder="Selecciona la localidd"></input>
-                    <input className="input-adress input-select" placeholder="Selecciona el barrrio"></input>
-                    <input className="input-adress input-select" placeholder="numero"></input>
-                    <input className="input-adress" placeholder="Direccion"></input>
-                    <input className="input-adress" placeholder="solar"></input>
-                    <input className="input-adress" placeholder="manzana"></input>
+                    <input className="input input-adress input-select" type="select" placeholder="Seleccioná Departamento *" required ></input>
+                    <input className="input input-adress input-select" placeholder="Selecciona la localidd"></input>
+                    <input className="input input-adress input-select" placeholder="Selecciona el barrrio"></input>
+                    <input className="input input-adress input-select" placeholder="numero"></input>
+                    <input className="input input-adress" placeholder="Direccion"></input>
+                    <input className="input input-adress" placeholder="solar"></input>
+                    <input className="input input-adress" placeholder="manzana"></input>
                 </form>
                 <div className="salesOperations">
                     <p className="black">Operativa de venta:</p>

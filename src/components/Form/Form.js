@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import Inputs from "../Inputs/Inputs";
 import { Button } from "../Buttons/continue/Button";
 import { Link } from "react-router-dom";
 import "./style.css";
 export const Form = () => {
+  const [inputRut, setInputRut] = useState("");
   const captcha = useRef(null);
 
   const onChange = () => {
@@ -14,11 +15,24 @@ export const Form = () => {
       console.log("captcha no valido");
     }
   };
+  const showTextRut = (e) => {
+    setInputRut(e.target.value)
+  }
+
+  const Continuar = () => {
+    if (inputRut.length > 10) {
+      console.log("mayor a 10")
+      return true;
+    } else {
+      console.log("no es mayor a 10")
+      return false;
+    }
+  }
 
   return (
     <form className="form">
       <div className="container-inputs">
-        <Inputs placeholder="Numero de Rut" />
+        <Inputs value={inputRut} onChange={showTextRut} placeholder="Numero de Rut" />
         <Inputs placeholder="Nombre fantasia" type="text" />
         <Inputs placeholder="Nombre y Apellido" type="text" />
         <Inputs placeholder="Celular" />
@@ -46,7 +60,7 @@ export const Form = () => {
       </div>
       <hr></hr>
       <div className="container-btnContinue">
-        <Button to="/validate" text="Continuar >" />
+        <Button onClick={Continuar()} to="/validate" text="Continuar >" />
       </div>
     </form>
   );

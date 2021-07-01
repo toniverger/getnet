@@ -3,7 +3,7 @@ import './style.css';
 
 const Inputs = (props) => {
     return(
-        <input className="inputForm" placeholder={props.placeholder} type={props.type} required></input>
+        <input className="inputForm" placeholder={props.placeholder} type={props.type} value={props.value} onChange={props.onChange} required></input>
     )
 }
 

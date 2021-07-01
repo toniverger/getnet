@@ -16,9 +16,8 @@ const Documentation = () => {
                 <Steps text1="4 - Información del domicilio y operativa de venta" text2="5 - Rubro, información fiscal y documentación" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <Text title="Rubro, información fiscal y documentación" />
                 <p className="black">Rubro:</p>
-                <input className="input-select" placeholder="Seleccioná Rubro *"></input>
-                <input className="input-select" placeholder="Seleccioná Sub-rubro *"></input>
-                <input placeholder=""></input>
+                <input className="input input-select" placeholder="Seleccioná Rubro *"></input>
+                <input className="input input-select" placeholder="Seleccioná Sub-rubro *"></input>
                 <input type="checkbox" ></input>
                 <label className="gray font18">Aplica Ley Nº 17.934 i</label>
                 <p className="black">Tipo de contribuyente:</p>
