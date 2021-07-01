@@ -23,25 +23,22 @@
   position: relative;
   display: inline-block;
   width: 70%;
-  height: 25vh;
-  padding: 40px 0px;
+  height: 20vh;
+  padding-top: 40px;
   margin-left: 100px;
 }
 .captcha {
-  width: 90%;
+  width: 70%;
   display: flex;
   justify-content: flex-end;
-  flex-direction: row;
+  padding-left: 20px;
+  margin-top: -40px;
 }
 .labelCheckbox {
   color: #8d8080;
   margin: 10px;
 }
-.input-mail {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-}
+
 .container-terms {
   width: 50%;
   height: 70px;
@@ -54,7 +51,11 @@
   color: #9e3667;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1566px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
   .form {
     display: flex;
     justify-content: center;
@@ -63,15 +64,50 @@
   .container-inputs {
     display: flex;
     width: 80%;
-    height: 50vh;
+    height: 40vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  .captcha {
+    margin-top: 5px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  .container-terms {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-inputs {
+    display: flex;
+    width: 80%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
   }
   .captcha {
     width: 70%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
   }
   .container-terms {
@@ -91,17 +127,17 @@
   .container-inputs {
     display: flex;
     width: 80%;
-    height: 70vh;
+    height: 40vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   .captcha {
     width: 70%;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
-    margin-top: 52px;
     justify-content: center;
+    align-items: center;
   }
   div.input-mail {
     margin-top: 200px;
@@ -127,7 +163,7 @@
   .container-inputs {
     display: flex;
     width: 80%;
-    height: 70vh;
+    height: 40vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;

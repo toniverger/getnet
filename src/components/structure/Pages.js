@@ -9,12 +9,12 @@ const Page = ({ content }) => {
   return (
     <div className="container-root">
       <NavBar />
-      <div className="content">
+      <div className="content1">
         <div className="left">
           <img src={Individuals} />
         </div>
         <div className="right">
-          <div className="conte">
+          <div className="content2">
             {content}
           </div>
         </div>
