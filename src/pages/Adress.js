@@ -45,9 +45,7 @@ export default Adress;
 
 /*
 <select
-                        id="departamento_select_pagina" ng-change="update()" ng-model="selected"
-                        placeholder="seleccione">
-                        <option value="? undefined:undefined ?" selected="selected">
+                       
                         </option>
                         <option value="todos">Seleccionar</option>
                         <option value="2">Artigas</option>
