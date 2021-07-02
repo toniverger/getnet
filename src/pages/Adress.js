@@ -33,7 +33,7 @@ const Adress = () => {
                     <button className="btn-round">Venta por internet</button>
                 </div>
                 <hr></hr>
-                <div className="content-center">
+                <div className="next">
                     <Button className="btnContinue-two" to="/docs" text="Continue >" />
                 </div>
                 

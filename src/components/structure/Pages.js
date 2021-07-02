@@ -11,7 +11,7 @@ const Page = ({ content }) => {
       <NavBar />
       <div className="content1">
         <div className="left">
-          <img src={Individuals} />
+          <img className="img-root" src={Individuals} />
         </div>
         <div className="right">
           <div className="content2">

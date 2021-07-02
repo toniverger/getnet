@@ -19,7 +19,7 @@ const Confirm = () => {
                         <Text title="Creaste tu cuenta en Empresa" subtitle="Para que tu comercio quede operativo deberás completar otros datos." />
                     </div>
                     <hr></hr>
-                    <div className="content-center">
+                    <div className="next">
                     <Button className="btnContinue-two" to="/adress" text="Continue >" />
                     </div>
                 </>

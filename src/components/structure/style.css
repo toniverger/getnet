@@ -1,8 +1,8 @@
 .container-root {
+  height: 100vh;
 }
 .content1 {
   width: 100%;
-  height: 100vh;
   display: flex;
 }
 
@@ -18,10 +18,10 @@
 }
 .content2 {
   width: 100%;
-  height: 100%;
-
 }
-
+.img-root {
+  height: 700px
+}
 
 /*resposive*/
 
