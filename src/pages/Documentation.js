@@ -24,7 +24,7 @@ const Documentation = () => {
                 <img src={info} alt="icon-info" />
                 <p className="gray">Tengo declaración jurada por exoneración</p>
                 <p className="black font18">Adjuntar foto de tarjeta de RUT o Formulario DGI 6361 - 6161 - 6351: *</p>
-                <Button to="/review" text="Finalizar >" />
+                <Button className="btnContinue-two" to="/review" text="Finalizar >" />
             </>
         } />
     )
