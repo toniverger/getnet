@@ -4,7 +4,8 @@
 /*input code page validate*/
 .form-code {
   height: 200px;
-  padding: 0px 30px 30px 30px;
+  padding: 0px 30px 30px 70px;
+  margin-bottom: 100px;
 }
 .input-code {
   background-color: #eeeeee;
@@ -15,9 +16,69 @@
 .link-submit-code {
   color: #9e3667;
 }
-#new-code {
-  margin: 70px 0px;
+.new-code {
+  margin: 30px 0px;
+  padding: 0px 30px;
 }
+
+@media screen and (max-width: 1109px) {
+  .form-code {
+    margin: 0px;
+    padding: 0px;
+  }
+    .new-code {
+      width: 150px;
+      margin: 30px auto;
+      padding: 0px 30px;
+      text-align: justify;
+    }
+    .linkBack {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .new-code {
+    width: 150px;
+    margin: 30px auto;
+    padding: 0px 30px;
+    text-align: justify;
+  }
+  .linkBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .form-code {
+    padding: 0px;
+  }
+  .input-code {
+    margin: 18px;
+  }
+  .new-code {
+    width: 150px;
+    margin: 30px auto;
+    padding: 0px 30px;
+    text-align: justify;
+  }
+  .linkBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /* page adress*/
 .input-adress {
   background-color: #eeeeee;

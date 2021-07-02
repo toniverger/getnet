@@ -34,7 +34,7 @@ const Adress = () => {
                 </div>
                 <hr></hr>
                 <div className="container-btnContinue">
-                    <Button to="/docs" text="Continue >" />
+                    <Button className="btnContinue-two" to="/docs" text="Continue >" />
                 </div>
             </>
         }

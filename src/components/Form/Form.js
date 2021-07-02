@@ -36,7 +36,6 @@ export const Form = () => {
         <Inputs placeholder="Nombre fantasia" type="text" />
         <Inputs placeholder="Nombre y Apellido" type="text" />
         <Inputs placeholder="Celular" />
-      
           <Inputs placeholder="Email" type="email" />
       </div>
         <ReCAPTCHA
@@ -58,9 +57,7 @@ export const Form = () => {
         </label>
       </div>
       <hr></hr>
-      
-        <Button onClick={Continuar()} to="/validate" text="Continuar >" />
-    
+        <Button className="btnContinue" onClick={Continuar()} to="/validate" text="Continuar >" />
     </form>
   );
 };
