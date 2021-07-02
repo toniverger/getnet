@@ -30,7 +30,7 @@ export const Validate = () => {
                         <p id="new-code" className="new-code gray">¿No te llegó el código? <Link to="#" className="linkBack violet"> &nbsp; Volver a enviar</Link></p>
                     </form>
                     <hr></hr>
-                    <div className="content-center">
+                    <div className="next">
                         <Button className="btnContinue-two" text="Continuar >" to="/confirm" />
                     </div>
                 </>
