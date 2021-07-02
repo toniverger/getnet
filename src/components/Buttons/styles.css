@@ -45,8 +45,22 @@
     border: 1px solid #f30013;
     opacity: 1;
     margin: 0px;
+    position: fixed;
+    bottom: 10px;
   }
-  
+  .btnContinue-two {
+    position: fixed;
+    bottom: 10px;
+    width: 80%;
+    height: 43px;
+    color: #f30013;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #f30013;
+    opacity: 1;
+    margin: 0px;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -70,7 +84,7 @@
 @media screen and (max-width: 479px) {
   .link-btnContinue {
     text-decoration: none;
-    color: #F30013;
+    color: #f30013;
   }
 
   .btnContinue {
@@ -85,7 +99,6 @@
   }
   .link-btnContinue {
     text-decoration: none;
-    color: #F30013;
+    color: #f30013;
   }
- 
 }

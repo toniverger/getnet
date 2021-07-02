@@ -14,10 +14,14 @@ const Confirm = () => {
                 <>
                     <Steps text1="1- Datos de la empresa" text2="2 - Validar número de celular" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
                     <hr></hr>
-                    <Text title="¡Listo!" />
-                    <Text title="Creaste tu cuenta en Empresa" subtitle="Para que tu comercio quede operativo deberás completar otros datos." />
+                    <div className="confirm">
+                        <Text title="¡Listo!" />
+                        <Text title="Creaste tu cuenta en Empresa" subtitle="Para que tu comercio quede operativo deberás completar otros datos." />
+                    </div>
                     <hr></hr>
+                    <div className="content-center">
                     <Button className="btnContinue-two" to="/adress" text="Continue >" />
+                    </div>
                 </>
             } />
 
