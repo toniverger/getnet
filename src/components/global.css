@@ -116,6 +116,7 @@
   border-radius: 23px;
   color: #ec0000;
   margin: 10px;
+  cursor: pointer;
 }
 .btn-round_active {
   background-color: #910009;
@@ -123,6 +124,7 @@
   border: 1px solid #ec0013;
   padding: 10px;
   border-radius: 23px;
+  cursor: pointer;
 }
 @media screen and (max-width: 797px) {
   * {

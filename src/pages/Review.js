@@ -35,13 +35,18 @@ const Review = () => {
                         <img src={wpp} alt="icon-whatsApp" />
                         <p className="tel white font18">0000 00 00</p>
                     </div>
-
                 </div>
                 <div className="socials">
                     <p className="white font18">Seguinos</p>
-                    <img className="img-socials" src={facebook} alt="icon-facebook" />
-                    <img className="img-socials" src={linkedin} alt="icon-linkedin" />
-                    <img className="img-socials" src={instagram} alt="icon-instagram" />
+                    <Link to="#" >
+                        <img className="img-socials" src={facebook} alt="icon-facebook" />
+                    </Link>
+                    <Link to="#">
+                        <img className="img-socials" src={linkedin} alt="icon-linkedin" />
+                    </Link>
+                    <Link to="#">
+                        <img className="img-socials" src={instagram} alt="icon-instagram" />
+                    </Link>
                 </div>
             </div>
             <div className="background-img_rigth">
