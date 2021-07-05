@@ -16,7 +16,7 @@ const Adress = () => {
                 <hr></hr>
                 <Text title="Completá los datos del domicilio y operativa de venta" />
                 <form id="form-adress">
-                    <p className="black">Domicilio principal:</p>
+                    <p className="subtitle-adress black font18 bold">Domicilio principal:</p>
                     <input className="input input-adress input-select" type="select" placeholder="Seleccioná Departamento *" required ></input>
                     <input className="input input-adress input-select" placeholder="Selecciona la localidd"></input>
                     <input className="input input-adress input-select" placeholder="Selecciona el barrrio"></input>
@@ -26,7 +26,7 @@ const Adress = () => {
                     <input className="input input-adress" placeholder="manzana"></input>
                 </form>
                 <div className="salesOperations">
-                    <p className="black">Operativa de venta:</p>
+                    <p className="black font18 bold">Operativa de venta:</p>
                     <p className="gray">(Debes seleccionar al menos una opción)</p>
                     <button className="btn-round_active">Venta con tarjeta presente</button>
                     <button className="btn-round">Venta telefónica</button>
@@ -36,7 +36,7 @@ const Adress = () => {
                 <div className="next">
                     <Button className="btnContinue-two" to="/docs" text="Continue >" />
                 </div>
-                
+
             </>
         }
         />

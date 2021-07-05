@@ -3,11 +3,14 @@ import Page from '../components/structure/Pages';
 import Steps from '../components/Steps/Steps';
 import Text from '../components/Texts/Text';
 import { Button } from '../components/Buttons/continue/Button';
+import { ButtonsSelect } from '../components/Buttons/select/Button';
 
 import infor from "../images/icon-infor.svg";
 import docs from "../images/icon-docs-active.svg";
 import revision from "../images/icon-revision.svg";
 import info from '../images/info.svg';
+import question from '../images/question-mark.svg';
+import file from '../images/file-upload-solid.svg';
 
 const Documentation = () => {
     return (
@@ -19,13 +22,34 @@ const Documentation = () => {
                 <input className="input input-select" placeholder="Seleccioná Rubro *"></input>
                 <input className="input input-select" placeholder="Seleccioná Sub-rubro *"></input>
                 <input type="checkbox" ></input>
-                <label className="gray font18">Aplica Ley Nº 17.934 i</label>
-                <p className="black">Tipo de contribuyente:</p>
+                <label className="gray font18">Aplica Ley Nº 17.934 </label>
                 <img src={info} alt="icon-info" />
+                <div className="content-subtitle">
+                    <p className="black">Tipo de contribuyente:  &nbsp;</p>
+                    <img src={question} alt="icon-question" />
+                </div>
+                <ButtonsSelect text="Grandes contribuyentes" />
+                <ButtonsSelect text="NO CEDE" />
+                <ButtonsSelect text="Monotributo" />
+                <ButtonsSelect text="CEDE" />
+                <ButtonsSelect text="Pequeña empresa" />
+                <ButtonsSelect text="Monotributo - Mides" />
+                <input type="checkbox"></input>
                 <p className="gray">Tengo declaración jurada por exoneración</p>
                 <p className="black font18">Adjuntar foto de tarjeta de RUT o Formulario DGI 6361 - 6161 - 6351: *</p>
+                <div className="photo">
+                    <div class="container-input">
+                        <input type="file" name="file" id="file" class="inputfile inputfile" data-multiple-caption="{count} archivos seleccionados" />
+                        <label for="file">
+                            <figure>
+                                <img src={file} />
+                            </figure>
+                            <span class="text-file iborrainputfile">Adjuntá o arrastrá tu archivo.</span>
+                        </label>
+                    </div>
+                </div>
                 <div className="next">
-                <Button className="btnContinue-two" to="/review" text="Finalizar >" />
+                    <Button className="btnContinue-two" to="/review" text="Finalizar >" />
                 </div>
             </>
         } />
