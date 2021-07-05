@@ -10,8 +10,12 @@
   height: 80px;
   margin-right: 10px;
 }
-.text_tel {
+.text_disabled {
+  color: #6F7779;
+}
+.text_active {
   color: #9e3667;
+
 }
 
 @media screen and (max-width: 1118px) {
