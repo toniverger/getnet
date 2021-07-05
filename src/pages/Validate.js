@@ -17,7 +17,7 @@ export const Validate = () => {
         <>
             <Page content={
                 <>
-                    <Steps text1="1- Datos de la empresa" text2="2 - Validar número de celular" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
+                    <Steps class_1="text_active" text1="1- Datos de la empresa" class_2="text_active" text2="2 - Validar número de celular" class_3="text-disabled" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
                     <hr></hr>
                     <Text title="Ingresa el código que te enviamos a tu celular" subtitle="Lo enviamos al 090 000 000 para confirmar que te pertenece" />
                     <form id="form" className="form-code">

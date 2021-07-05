@@ -12,7 +12,7 @@ const Adress = () => {
     return (
         <Page content={
             <>
-                <Steps text1="4 - Información del domicilio y operativa de venta" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
+                <Steps class_1="text_active" text1="4 - Información del domicilio y operativa de venta" class_3="text_disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <hr></hr>
                 <Text title="Completá los datos del domicilio y operativa de venta" />
                 <form id="form-adress">

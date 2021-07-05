@@ -16,7 +16,7 @@ const Documentation = () => {
     return (
         <Page content={
             <>
-                <Steps text1="4 - Información del domicilio y operativa de venta" text2="5 - Rubro, información fiscal y documentación" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
+                <Steps class_1="text_active" text1="4 - Información del domicilio y operativa de venta" class_2="text_active" text2="5 - Rubro, información fiscal y documentación" class_3="text_disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <Text title="Rubro, información fiscal y documentación" />
                 <p className="black">Rubro:</p>
                 <input className="input input-select" placeholder="Seleccioná Rubro *"></input>
