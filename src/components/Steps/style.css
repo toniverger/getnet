@@ -78,7 +78,7 @@
   
   @media screen and (max-width: 479px) {
     div.Steps {
-      margin-top: 20px;
+      margin-top: 5px;
     }
     .encloseSteps {
       width: 20%;

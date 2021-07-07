@@ -217,8 +217,6 @@
     width: 80%;
     margin: 0px 0px 50px 0px;
     padding: 0px 50px;
-   
-  
   }
   .btn-hidden {
     display: none;
@@ -291,7 +289,6 @@
 .questions {
   width: 30%;
   padding: 0px 40px;
-  margin: 0px 50px;
 }
 .delay {
   text-align: left;
@@ -319,7 +316,87 @@
   bottom: 40px;
   right: 40px;
 }
-.img-group {
+.title-sm {
+  display: none;
+  visibility: hidden;
+}
+.subtitle-sm {
+  display: none;
+  visibility: hidden;
+}
+.review_content-btn_resp {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 479px) {
+  .page-review {
+    background-color: rgb(93, 128, 124);
+  }
+  .review {
+    height: 400px;
+  }
+  .congrats {
+    display: none;
+    visibility: hidden;
+  }
+  .delay {
+    display: none;
+    visibility: hidden;
+  }
+  .background-img_rigth {
+    display: none;
+    visibility: hidden;
+  }
+  .background-img_left {
+    display: none;
+    visibility: hidden;
+  }
+  .title-sm {
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    visibility: visible;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+  }
+  .subtitle-sm {
+    display: flex;
+    visibility: visible;
+  }
+  .review-contact {
+    width: 80%;
+
+    flex-direction: column;
+  }
+  .questions {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .review_contact-two {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-back {
+    display: none;
+    visibility: hidden;
+  }
+  .btn-back_resp {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    height: 40px;
+  }
+
+  .review_content-btn_resp {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0px;
+  }
 }
 
 /*page confirm*/
