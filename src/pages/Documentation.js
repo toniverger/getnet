@@ -18,6 +18,8 @@ const Documentation = () => {
             <>
                 <Steps class_1="text_active" text1="4 - Información del domicilio y operativa de venta" class_2="text_active" text2="5 - Rubro, información fiscal y documentación" class_3="text_disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <Text title="Rubro, información fiscal y documentación" />
+                <div className="subtitle-doc">
+
                 <p className="black">Rubro:</p>
                 <input className="input input-select" placeholder="Seleccioná Rubro *"></input>
                 <input className="input input-select" placeholder="Seleccioná Sub-rubro *"></input>
@@ -47,6 +49,7 @@ const Documentation = () => {
                             <span class="text-file iborrainputfile">Adjuntá o arrastrá tu archivo.</span>
                         </label>
                     </div>
+                </div>
                 </div>
                 <div className="next">
                     <Button className="btnContinue-two" to="/review" text="Finalizar >" />
