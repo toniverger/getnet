@@ -8,6 +8,7 @@ import empresa from "../images/icon-empresa-active.svg";
 import validar from "../images/icon-validar-disabled.svg";
 import confirmar from "../images/icon-confirm-disabled.svg";
 
+
 export const Datas = () => {
   return (
     <Page
