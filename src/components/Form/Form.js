@@ -36,14 +36,14 @@ export const Form = () => {
         <Inputs placeholder="Nombre fantasia" type="text" />
         <Inputs placeholder="Nombre y Apellido" type="text" />
         <Inputs placeholder="Celular" />
-          <Inputs placeholder="Email" type="email" />
+        <Inputs placeholder="Email" type="email" />
       </div>
-        <ReCAPTCHA
-          className="captcha"
-          ref={captcha}
-          sitekey="6Le-TFcbAAAAAEQ0K_e0xBLDvdS5Fj8NYgadM8fD"
-          onChange={onChange}
-        />
+      <ReCAPTCHA
+        className="captcha"
+        ref={captcha}
+        sitekey="6Le-TFcbAAAAAEQ0K_e0xBLDvdS5Fj8NYgadM8fD"
+        onChange={onChange}
+      />
       <div className="container-terms">
         <input type="checkbox"></input>
         <label className="labelCheckbox">
@@ -57,7 +57,7 @@ export const Form = () => {
         </label>
       </div>
       <hr></hr>
-        <Button className="btnContinue" onClick={Continuar()} to="/validate" text="Continuar >" />
+      <Button className="btnContinue" onClick={Continuar()} to="/validate" text="Continuar >" />
     </form>
   );
 };
