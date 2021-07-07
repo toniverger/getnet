@@ -115,6 +115,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
   }
 }
 
@@ -146,6 +147,7 @@
     height: 70px;
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
   }
 }
 
@@ -168,4 +170,12 @@
     align-items: center;
     flex-direction: column;
   }
+  .container-terms {
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+ 
 }

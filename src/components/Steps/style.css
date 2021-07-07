@@ -1,14 +1,16 @@
 .Steps {
   width: 85%;
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .encloseSteps {
   width: 25%;
   height: 80px;
   margin-right: 10px;
+  padding: 5px;
+  
 }
 .text_disabled {
   color: #6F7779;
@@ -36,7 +38,7 @@
   @media screen and (max-width: 767px) {
     .Steps {
         width: 100%;
-        height: 80px;
+        height: 100px;
         display: flex;
         justify-content: center;
         margin-top: 50px;

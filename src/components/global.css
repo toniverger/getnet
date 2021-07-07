@@ -88,20 +88,22 @@
 }
 .input-adress {
   background-color: #eeeeee;
-  width: 80px;
+  width: 100px;
   height: 50px;
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
 }
 .input-select {
   background-color: #eeeeee;
   width: 190px;
   height: 50px;
-  margin: 10px;
+}
+.input-dir {
+  width: 240px;
 }
 #form-adress {
   width: 60%;
   height: 200px;
-  padding: 10px 30px 0px 90px;
+  padding: 10px 30px 0px 100px;
   display: inline-block;
 }
 .salesOperations {
@@ -126,25 +128,101 @@
   border-radius: 23px;
   cursor: pointer;
 }
-@media screen and (max-width: 797px) {
-  * {
-    padding: 0px;
-    margin: 0px;
-  }
+@media screen and (max-width: 1114px) {
   #form-adress {
-    width: 100%;
+    width: 60%;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px;
   }
   .input-adress {
+    width: 23%;
+    height: 40px;
+  }
+  .input-select {
+    width: 80%;
+  }
+  .input-dir {
+    width: 80%;
+  }
+  .form-adress-respons {
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+  .salesOperations {
     width: 70%;
-    padding: 10px 0px;
+    margin: 0px;
+    padding: 0px 0px 0px 250px;
+  }
+  .btn-hidden {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  #form-adress {
+    width: 60%;
+    height: 400px;
+  }
+  .input-adress {
+    width: 23%;
+    height: 40px;
+  }
+  .input-select {
+    width: 80%;
+  }
+  .input-dir {
+    width: 80%;
+  }
+  .form-adress-respons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesOperations {
+    width: 70%;
+    margin: 0px;
+    padding: 0px 0px 0px 160px;
+  }
+  .btn-hidden {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 479px) {
+  #form-adress {
+    width: 80%;
+    height: 400px;
+    padding: 0px;
+  }
+  .input-adress {
+    width: 27%;
+    height: 40px;
+    padding: 0px;
+  }
+  .input-select {
+    width: 100%;
+  }
+  .input-dir {
+    width: 100%;
+  }
+  .form-adress-respons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesOperations {
+    width: 80%;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 50px;
+   
+  
+  }
+  .btn-hidden {
+    display: none;
+    visibility: hidden;
   }
 }
 
@@ -283,6 +361,9 @@
   height: 100px;
   border: 2px dashed #a2a2a2;
 }
+.subtitle-doc {
+  padding: 30px 20px 5px 100px;
+}
 
 /*styles globales*/
 
@@ -291,6 +372,9 @@ hr {
   border-top: 1px solid #a2a2a2;
   height: 2;
   margin: auto;
+}
+hr2 {
+  border-top: 1px solid blueviolet;
 }
 
 .gray {
