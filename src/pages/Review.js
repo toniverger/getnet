@@ -13,7 +13,7 @@ const Review = () => {
     return (
         <div className="page-review">
             <div className="content-menu">
-                <Menu />
+              {/** <Menu /> */} 
             </div>
             <div className="background-img_left">
                 <img className="img-group" src={group} alt="img-group-208" />
