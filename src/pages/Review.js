@@ -13,7 +13,7 @@ const Review = () => {
     return (
         <div className="page-review">
             <div className="content-menu">
-            <Menu />
+                <Menu />
             </div>
             <div className="background-img_left">
                 <img className="img-group" src={group} alt="img-group-208" />
@@ -62,11 +62,11 @@ const Review = () => {
                 <img className="img-group" src={group} alt="img-group-208" />
             </div>
             <div className="review_content-btn_resp">
-                    <button className="btn-back_resp">
-                        <Link to="/" className="link-back white">
-                            Volver al inicio
-                        </Link></button>
-                </div>
+                <button className="btn-back_resp">
+                    <Link to="/" className="link-back white">
+                        Volver al inicio
+                    </Link></button>
+            </div>
         </div>
     )
 }

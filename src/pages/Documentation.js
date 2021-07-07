@@ -20,36 +20,36 @@ const Documentation = () => {
                 <Text title="Rubro, información fiscal y documentación" />
                 <div className="subtitle-doc">
 
-                <p className="black">Rubro:</p>
-                <input className="input input-select" placeholder="Seleccioná Rubro *"></input>
-                <input className="input input-select" placeholder="Seleccioná Sub-rubro *"></input>
-                <input type="checkbox" ></input>
-                <label className="gray font18">Aplica Ley Nº 17.934 </label>
-                <img src={info} alt="icon-info" />
-                <div className="content-subtitle">
-                    <p className="black">Tipo de contribuyente:  &nbsp;</p>
-                    <img src={question} alt="icon-question" />
-                </div>
-                <ButtonsSelect text="Grandes contribuyentes" />
-                <ButtonsSelect text="NO CEDE" />
-                <ButtonsSelect text="Monotributo" />
-                <ButtonsSelect text="CEDE" />
-                <ButtonsSelect text="Pequeña empresa" />
-                <ButtonsSelect text="Monotributo - Mides" />
-                <input type="checkbox"></input>
-                <p className="gray">Tengo declaración jurada por exoneración</p>
-                <p className="black font18">Adjuntar foto de tarjeta de RUT o Formulario DGI 6361 - 6161 - 6351: *</p>
-                <div className="photo">
-                    <div class="container-input">
-                        <input type="file" name="file" id="file" class="inputfile inputfile" data-multiple-caption="{count} archivos seleccionados" />
-                        <label for="file">
-                            <figure>
-                                <img src={file} />
-                            </figure>
-                            <span class="text-file iborrainputfile">Adjuntá o arrastrá tu archivo.</span>
-                        </label>
+                    <p className="black">Rubro:</p>
+                    <input className="input input-select" placeholder="Seleccioná Rubro *"></input>
+                    <input className="input input-select" placeholder="Seleccioná Sub-rubro *"></input>
+                    <input type="checkbox" ></input>
+                    <label className="gray font18">Aplica Ley Nº 17.934 </label>
+                    <img src={info} alt="icon-info" />
+                    <div className="content-subtitle">
+                        <p className="black">Tipo de contribuyente:  &nbsp;</p>
+                        <img src={question} alt="icon-question" />
                     </div>
-                </div>
+                    <ButtonsSelect text="Grandes contribuyentes" />
+                    <ButtonsSelect text="NO CEDE" />
+                    <ButtonsSelect text="Monotributo" />
+                    <ButtonsSelect text="CEDE" />
+                    <ButtonsSelect text="Pequeña empresa" />
+                    <ButtonsSelect text="Monotributo - Mides" />
+                    <input type="checkbox"></input>
+                    <p className="gray">Tengo declaración jurada por exoneración</p>
+                    <p className="black font18">Adjuntar foto de tarjeta de RUT o Formulario DGI 6361 - 6161 - 6351: *</p>
+                    <div className="photo">
+                        <div class="container-input">
+                            <input type="file" name="file" id="file" class="inputfile inputfile" data-multiple-caption="{count} archivos seleccionados" />
+                            <label for="file">
+                                <figure>
+                                    <img src={file} />
+                                </figure>
+                                <span class="text-file iborrainputfile">Adjuntá o arrastrá tu archivo.</span>
+                            </label>
+                        </div>
+                    </div>
                 </div>
                 <div className="next">
                     <Button className="btnContinue-two" to="/review" text="Finalizar >" />

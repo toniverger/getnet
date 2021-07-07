@@ -12,16 +12,16 @@ const Confirm = () => {
         <div>
             <Page content={
                 <>
-                    <Steps class_1="text_active" text1="1- Datos de la empresa" class_2="text_active" text2="2 - Validar número de celular" class_3="text_active"  text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
+                    <Steps class_1="text_active" text1="1- Datos de la empresa" class_2="text_active" text2="2 - Validar número de celular" class_3="text_active" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
                     <hr></hr>
                     <div className="confirm">
-                       
+
                         <h className="title">!Listo!</h>
                         <Text title="Creaste tu cuenta en Empresa" subtitle="Para que tu comercio quede operativo deberás completar otros datos." />
                     </div>
                     <hr></hr>
                     <div className="next">
-                    <Button className="btnContinue-two" to="/adress" text="Continue >" />
+                        <Button className="btnContinue-two" to="/adress" text="Continue >" />
                     </div>
                 </>
             } />

@@ -16,16 +16,16 @@ const Adress = () => {
                 <hr></hr>
                 <h className="title">Completá los datos del domicilio y operativa de venta</h>
                 <div className="form-adress-respons">
-                <form id="form-adress">
-                    <p className="subtitle-adress black font18 bold">Domicilio principal:</p>
-                    <input className="input input-adress input-select" type="select" placeholder="Seleccioná Departamento *" required ></input>
-                    <input className="input input-adress input-select" placeholder="Selecciona la localidd"></input>
-                    <input className="input input-adress input-select" placeholder="Selecciona el barrrio"></input>
-                    <input className="input input-adress input-dir" placeholder="Direccion"></input>
-                    <input className="input input-adress" placeholder="numero"></input>
-                    <input className="input input-adress" placeholder="solar"></input>
-                    <input className="input input-adress" placeholder="manzana"></input>
-                </form>
+                    <form id="form-adress">
+                        <p className="subtitle-adress black font18 bold">Domicilio principal:</p>
+                        <input className="input input-adress input-select" type="select" placeholder="Seleccioná Departamento *" required ></input>
+                        <input className="input input-adress input-select" placeholder="Selecciona la localidd"></input>
+                        <input className="input input-adress input-select" placeholder="Selecciona el barrrio"></input>
+                        <input className="input input-adress input-dir" placeholder="Direccion"></input>
+                        <input className="input input-adress" placeholder="numero"></input>
+                        <input className="input input-adress" placeholder="solar"></input>
+                        <input className="input input-adress" placeholder="manzana"></input>
+                    </form>
                 </div>
                 <div className="salesOperations">
                     <p className="black font18 bold">Operativa de venta:</p>
