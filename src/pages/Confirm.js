@@ -21,7 +21,7 @@ const Confirm = () => {
                     </div>
                     <hr></hr>
                     <div className="next">
-                        <Button className="btnContinue-two" to="/adress" text="Continue >" />
+                        <Button className="btnContinue-two" to="/adress" text="Continuar >" />
                     </div>
                 </>
             } />

@@ -21,6 +21,17 @@
   margin-top: 20px;
 }
 
+.btnContinue-docs {
+  width: 126px;
+  height: 43px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #ec0000;
+  border: 1px solid #f30013;
+  opacity: 1;
+  margin-top: 20px;
+}
+
 .link-btnContinue {
   text-decoration: none;
   color: #fff;
@@ -59,6 +70,20 @@
     margin: 0px;
     margin-top: 20px;
   }
+  
+  .btnContinue-docs {
+    position: fixed;
+    bottom: 10px;
+    width: 80%;
+    height: 43px;
+    color: #f30013;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #f30013;
+    opacity: 1;
+    margin: 0px;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -84,7 +109,6 @@
     text-decoration: none;
     color: #f30013;
   }
-
   .btnContinue {
     width: 80%;
     height: 43px;
