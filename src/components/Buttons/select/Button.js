@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 
-export const ButtonsSelect = ({ text }) => {
+export const ButtonsSelect = ({ text, className }) => {
     return (
-        <button className="btn-selected">{text}</button>
+        <button className={className}>{text}</button>
     )
 }
