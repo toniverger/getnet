@@ -54,6 +54,16 @@ const Documentation = () => {
                             <p className="gray">Debe estar en formato JPG PNG o PDF y no pesar más de 5MB.</p>
                         </label>
                     </div>
+                    <p className="subtitle-docs black font18">Adjuntar frente y dorso de Cédula de identidad: *</p>
+                    <div class="container-input-docs ci">
+                        <label for="file">
+                            <figure>
+                                <img src={file} />
+                                <span class="text-file iborrainputfile">Adjuntá o arrastrá tu archivo.</span>
+                            </figure>
+                            <p className="gray">Debe estar en formato JPG PNG o PDF y no pesar más de 5MB.</p>
+                        </label>
+                    </div>
                 </div>
                 <div className="next-docs">
                 <hr className="hr-bottom-doc"></hr>
