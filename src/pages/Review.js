@@ -11,10 +11,11 @@ import { Menu } from '../components/Menu/Menu';
 
 const Review = () => {
     return (
-        <div className="page-review">
+        <>
             <div className="content-menu">
-              {/** <Menu /> */} 
+            <Menu />
             </div>
+        <div className="page-review">
             <div className="background-img_left">
                 <img className="img-group" src={group} alt="img-group-208" />
             </div>
@@ -68,6 +69,7 @@ const Review = () => {
                     </Link></button>
             </div>
         </div>
+        </>
     )
 }
 
