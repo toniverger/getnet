@@ -151,7 +151,7 @@
   .salesOperations {
     width: 60%;
     margin: 0px;
-    padding: 0px 0px 0px 200px;
+    padding: 0px 0px 50px 200px;
     margin-bottom: 60px;
   }
   .btn-hidden {
@@ -183,7 +183,7 @@
   .salesOperations {
     width: 70%;
     margin: 0px;
-    padding: 0px 0px 0px 160px;
+    padding: 0px 0px 50px 160px;
     margin-bottom: 60px;
   }
   .btn-hidden {
@@ -216,7 +216,7 @@
 
   .salesOperations {
     width: 80%;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 100px 0px;
     padding: 0px 50px;
   }
   .btn-hidden {
@@ -475,11 +475,15 @@
 }
 
 @media screen and (max-width: 1113px) {
+
   .input-docs {
     margin-bottom: 15px;
   }
   .hr-bottom {
     width: 85%;
+  }
+  .ci {
+    margin-bottom: 100px;
   }
 }
 @media screen and(max-width: 666px) {
@@ -499,6 +503,7 @@
 @media screen and (max-width: 479px) {
   .form-doc {
     padding: 0px 20px 0px 20px;
+    margin-bottom: 120px;
   }
   .content-docs_buttons {
     width: 100%;
