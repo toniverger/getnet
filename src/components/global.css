@@ -317,14 +317,7 @@
   bottom: 40px;
   right: 40px;
 }
-.title-sm {
-  display: none;
-  visibility: hidden;
-}
-.subtitle-sm {
-  display: none;
-  visibility: hidden;
-}
+
 .review_content-btn_resp {
   display: none;
   visibility: hidden;
@@ -336,14 +329,7 @@
   .review {
     height: 400px;
   }
-  .congrats {
-    display: none;
-    visibility: hidden;
-  }
-  .delay {
-    display: none;
-    visibility: hidden;
-  }
+ 
   .background-img_rigth {
     display: none;
     visibility: hidden;
@@ -352,16 +338,16 @@
     display: none;
     visibility: hidden;
   }
-  .title-sm {
-    width: 70%;
-    height: 40vh;
+  .congrats {
+    width: 80%;
+    height: 30vh;
     display: flex;
     visibility: visible;
     font-size: 32px;
     text-align: center;
     padding: 20px;
   }
-  .subtitle-sm {
+  .delay {
     display: flex;
     visibility: visible;
   }
@@ -395,6 +381,11 @@
     visibility: visible;
     justify-content: flex-start;
     margin: 20px 0px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .congrats {
+    width: 100%;
   }
 }
 

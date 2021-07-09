@@ -20,11 +20,8 @@ const Review = () => {
                     <img className="img-group" src={group} alt="img-group-208" />
                 </div>
                 <div className="review">
-                    <h1 className="white congrats ">¡Felicidades! <br></br> Estamos revisando tus datos</h1>
-                    <p className="delay white font18">Esto puede demorar entre 24 y 48 horas.</p>
-                    <p className="delay white font18">Cuando esté todo listo te confirmaremos por las vías de contacto solicitadas.</p>
-                    <h className="title-sm white">¡Felicidades! Estás a un paso de descubrir como cobrar más fácil, rápido y seguro en el Mundo Empresa</h>
-                    <p className="subtitle-sm white">Validaremos tus datos a la brevedad y te avisaremos cuando este todo listo para comenzar.</p>
+                    <h className=" congrats white">¡Felicidades! Estás a un paso de descubrir como cobrar más fácil, rápido y seguro en el Mundo Empresa</h>
+                    <p className="sdelay white">Validaremos tus datos a la brevedad y te avisaremos cuando este todo listo para comenzar.</p>
                     <div className="review_content-btn">
                         <button className="btn-back">
                             <Link to="/" className="link-back white">
