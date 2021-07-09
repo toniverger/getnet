@@ -30,34 +30,40 @@ export const Form = () => {
   }
 
   return (
-    <form className="form">
-      <div className="container-inputs">
-        <Inputs value={inputRut} onChange={showTextRut} placeholder="Numero de Rut" />
-        <Inputs placeholder="Nombre fantasia" type="text" />
-        <Inputs placeholder="Nombre y Apellido" type="text" />
-        <Inputs placeholder="Celular" />
-        <Inputs placeholder="Email" type="email" />
+    <>
+      <form className="form">
+        <div className="container-inputs">
+          <Inputs value={inputRut} onChange={showTextRut} placeholder="Numero de Rut" />
+          <Inputs placeholder="Nombre fantasia" type="text" />
+          <Inputs placeholder="Nombre y Apellido" type="text" />
+          <Inputs placeholder="Celular" />
+          <Inputs placeholder="Email" type="email" />
+        </div>
+        <ReCAPTCHA
+          className="captcha"
+          ref={captcha}
+          sitekey="6Le-TFcbAAAAAEQ0K_e0xBLDvdS5Fj8NYgadM8fD"
+          onChange={onChange}
+        />
+        <div className="container-terms">
+          <input type="checkbox"></input>
+          <label className="labelCheckbox">
+            Acepto los{" "}
+            <span>
+              <Link to="/validate" className="link-conditions">
+                {" "}
+                Terminos y condiciones
+              </Link>{" "}
+            </span>
+          </label>
+        </div>
+      </form>
+      <div className="next">
+        <hr className="hr-bottom"></hr>
+        <div className="next-button">
+          <Button className="btnContinue" onClick={Continuar()} to="/validate" text="Continuar >" />
+        </div>
       </div>
-      <ReCAPTCHA
-        className="captcha"
-        ref={captcha}
-        sitekey="6Le-TFcbAAAAAEQ0K_e0xBLDvdS5Fj8NYgadM8fD"
-        onChange={onChange}
-      />
-      <div className="container-terms">
-        <input type="checkbox"></input>
-        <label className="labelCheckbox">
-          Acepto los{" "}
-          <span>
-            <Link to="/validate" className="link-conditions">
-              {" "}
-              Terminos y condiciones
-            </Link>{" "}
-          </span>
-        </label>
-      </div>
-      <hr></hr>
-      <Button className="btnContinue" onClick={Continuar()} to="/validate" text="Continuar >" />
-    </form>
+    </>
   );
 };

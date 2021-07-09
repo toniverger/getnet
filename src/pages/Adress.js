@@ -34,11 +34,12 @@ const Adress = () => {
                     <button className="btn-round">Venta telefónica</button>
                     <button className="btn-round btn-hidden">Venta por internet</button>
                 </div>
-                <hr2></hr2>
                 <div className="next">
-                    <Button className="btnContinue-two" to="/docs" text="Continue >" />
+                    <hr className="hr-bottom"></hr>
+                    <div className="next-button">
+                        <Button className="btnContinue-two" to="/docs" text="Continue >" />
+                    </div>
                 </div>
-
             </>
         }
         />
