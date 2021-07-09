@@ -24,9 +24,9 @@ const Documentation = () => {
                     <input className="input input-select input-docs" placeholder="Seleccioná Rubro *"></input>
                     <input className="input input-select input-docs" placeholder="Seleccioná Sub-rubro *"></input>
                     <div className="content-checkbox">
-                    <input type="checkbox" ></input>
-                    <label className="text-checkbox gray font18">Aplica Ley Nº 17.934 </label>
-                    <img src={info} alt="icon-info" />
+                        <input type="checkbox" ></input>
+                        <label className="text-checkbox gray font18">Aplica Ley Nº 17.934 </label>
+                        <img src={info} alt="icon-info" />
                     </div>
                     <div className="content-subtitle">
                         <p className="subtitle-docs black">Tipo de contribuyente:  &nbsp;</p>
@@ -65,9 +65,9 @@ const Documentation = () => {
                         </label>
                     </div>
                 </div>
-                <div className="next-docs">
-                <hr className="hr-bottom-doc"></hr>
-                    <div className="next-button-docs">
+                <div className="next">
+                    <hr className="hr-bottom"></hr>
+                    <div className="next-button">
                         <Button className="btnContinue-docs" to="/review" text="Finalizar >" />
                     </div>
                 </div>

@@ -29,9 +29,12 @@ export const Validate = () => {
                         </div>
                         <p id="new-code" className="new-code gray">¿No te llegó el código? <Link to="#" className="linkBack violet"> &nbsp; Volver a enviar</Link></p>
                     </form>
-                    <hr></hr>
                     <div className="next">
-                        <Button className="btnContinue-two" text="Continuar >" to="/confirm" />
+                        <hr className="hr-bottom"></hr>
+                        <div className="next-button">
+                            <Button className="btnContinue-two" text="Continuar >" to="/confirm" />
+
+                        </div>
                     </div>
                 </>
             } />
