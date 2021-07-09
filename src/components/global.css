@@ -301,7 +301,7 @@
   height: 200px;
   background-color: transparent;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-end;
   float: left;
   left: 40px;
