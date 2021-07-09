@@ -329,8 +329,7 @@
   display: none;
   visibility: hidden;
 }
-
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 790px) {
   .page-review {
     background-color: rgb(93, 128, 124);
   }
@@ -379,7 +378,8 @@
     display: flex;
     justify-content: space-between;
   }
-  .btn-back {
+ 
+   .btn-back {
     display: none;
     visibility: hidden;
   }
@@ -432,7 +432,8 @@
   color: #960000;
 }
 .form-doc {
-  padding: 0px 20px 5px 100px;
+  padding: 0px 20px 5px 30px;
+
 }
 .input-docs {
   margin-right: 15px;
@@ -442,7 +443,7 @@
   margin-top: 20px;
 }
 .content-docs_buttons {
-  width: 600px;
+  width: 50%;
   height: 80px;
 }
 .contributor {
@@ -453,13 +454,14 @@
 }
 .text-checkbox {
   margin-left: 5px;
+  margin-top: -2px;
 }
 .container-input-docs {
   margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: 100px;
   border: 2px dashed #a2a2a2;
 }
@@ -475,7 +477,16 @@
 }
 
 @media screen and (max-width: 1113px) {
-
+  .form-doc {
+      padding: 0px 0px 0px 30px;
+  }
+  .content-docs_buttons {
+    width: 100%;
+    height: 80px;
+  }
+.container-input-docs {
+  width: 95%;
+}
   .input-docs {
     margin-bottom: 15px;
   }
@@ -487,17 +498,27 @@
   }
 }
 @media screen and(max-width: 666px) {
+  .content-docs_buttons {
+    width: 100%;
+    height: 80px;
+    background-color: violet;
+  }
   .container-input-docs {
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 100px;
     border: 2px dashed #a2a2a2;
     margin: 0px;
     padding: 0px;
   }
+  .content-docs_buttons {
+    width: 100%;
+    
+  }
+  
  
 }
 @media screen and (max-width: 479px) {
@@ -512,6 +533,7 @@
   .container-input-docs {
     margin: 0px;
     padding: 0px;
+    width: 100%;
   }
   
 }

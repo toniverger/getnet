@@ -66,7 +66,7 @@
     width: 80%;
     height: 40vh;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     margin: 0px;
     padding: 0px;
@@ -75,13 +75,13 @@
     margin-top: 5px;
     width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .container-terms {
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 110px;
   }
 }

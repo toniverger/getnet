@@ -22,7 +22,7 @@ const Confirm = () => {
                     <div className="next">
                         <hr className="hr-bottom"></hr>
                         <div className="next-button">
-                            <Button className="btnContinue-two" to="/adress" text="Continuar >" />
+                            <Button className="btnContinue-two btn-confirm" to="/adress" text="Seguir completando >" />
                         </div>
                     </div>
                 </>
