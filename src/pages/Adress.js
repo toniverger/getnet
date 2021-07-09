@@ -1,7 +1,6 @@
 import React from 'react';
 import Page from '../components/structure/Pages';
 import Steps from '../components/Steps/Steps';
-import Text from '../components/Texts/Text';
 import { Button } from '../components/Buttons/continue/Button';
 
 import infor from "../images/icon-infor.svg";
