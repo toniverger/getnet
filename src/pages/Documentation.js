@@ -65,7 +65,7 @@ const Documentation = () => {
                         </label>
                     </div>
                 </div>
-                <div className="next">
+                <div className="next next-doc">
                     <hr className="hr-bottom"></hr>
                     <div className="next-button">
                         <Button className="btnContinue-docs" to="/review" text="Finalizar >" />
