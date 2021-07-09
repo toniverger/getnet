@@ -110,6 +110,7 @@
   width: 60%;
   height: 100px;
   padding: 0px 30px 30px 100px;
+  margin-top: 50px;
 }
 .btn-round {
   background-color: #ec00000d;
@@ -183,7 +184,7 @@
   .salesOperations {
     width: 70%;
     margin: 0px;
-    padding: 0px 0px 50px 160px;
+    padding: 0px 0px 50px 150px;
     margin-bottom: 60px;
   }
   .btn-hidden {
@@ -525,6 +526,9 @@
     margin: 0px;
     padding: 0px;
     width: 100%;
+  }
+  .input-docs {
+    padding-left: 0px;
   }
   
 }
