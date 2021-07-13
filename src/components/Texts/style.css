@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 479px) {
   .title {
-    padding: 15px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@
   }
   .subtitle {
     height: 30px;
-    padding: 12px;
+    padding: 5px;
     margin: 0px;
     display: flex;
     justify-content: center;
