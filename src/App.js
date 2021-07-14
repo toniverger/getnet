@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import Adress from "./pages/Adress";
 import Confirm from "./pages/Confirm";
 import { Datas } from "./pages/Datas";
+import { Index } from "./pages/Index";
 import Documentation from "./pages/Documentation";
 import Review from "./pages/Review";
 import { Validate } from "./pages/Validate";
