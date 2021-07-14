@@ -20,7 +20,7 @@ const Review = () => {
                     <img className="img-group" src={group} alt="img-group-208" />
                 </div>
                 <div className="review">
-                    <h className=" congrats white">¡Felicidades! Estás a un paso de descubrir como cobrar más fácil, rápido y seguro en el Mundo Empresa</h>
+                    <h className=" congrats white">¡Felicidades! <br></br> Estás a un paso de descubrir como cobrar más fácil, rápido y seguro en el Mundo Empresa</h>
                     <p className="sdelay white">Validaremos tus datos a la brevedad y te avisaremos cuando este todo listo para comenzar.</p>
                     <div className="review_content-btn">
                         <button className="btn-back">
@@ -31,20 +31,20 @@ const Review = () => {
                 </div>
                 <div className="review-contact">
                     <div className="questions">
-                        <p className="white font18">¿Tenés dudas? Contactanos al</p>
+                        <p className="doubt white font18">¿Tenés dudas? Contactanos al</p>
                         <div className="review_contact-two">
                             <div className="review_contact">
                                 <img src={tel} alt="icon-telphone" />
-                                <p className="tel white font18">0000 00 00</p>
+                                <p className="tel white font18">1 73 73</p>
                             </div>
                             <div className="review_contact">
                                 <img src={wpp} alt="icon-whatsApp" />
-                                <p className="tel white font18">0000 00 00</p>
+                                <p className="tel white font18">098 11 73 73</p>
                             </div>
                         </div>
                     </div>
                     <div className="socials">
-                        <p className="white font18">Seguinos</p>
+                        <p className="follow white font18">Seguinos</p>
                         <Link to="#" >
                             <img className="img-socials" src={facebook} alt="icon-facebook" />
                         </Link>

@@ -2,7 +2,7 @@
   background-color: #ffffff;
   padding: 10px 15px;
   width: 95%;
-  height: 40px;
+  height: 45px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -32,7 +32,9 @@
   display: flex;
   justify-content: space-around;
   margin-right: 50px;
-
+}
+.img-menu {
+  padding-right: 10px;
 }
 .btnClient_menu {
   width: 100%;
@@ -41,20 +43,39 @@
   background: rgba(158, 54, 103, 0.2);
   margin-bottom: 20px;
 }
-@media screen and (max-width: 479px) {
-  * {
-    padding: 0px;
-    margin: 0px;
-  }
-  .content_icon-menu {
-    
-  
-  }
-  .menu {
-  
-  }
+
+@media screen and (max-width: 991px) {
+ 
   .icon-menu {
     width: 60%;
+    padding-right: 15px;
     
+  }
+  .container-menu {
+    z-index: 10;
+  }
+  .menu {
+    width: 100%;
+    padding: 0px;
+    height: 45px;
+  }
+  .content_icon-menu {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 45px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .menu {
+    height: 45px;
+  }
+  .content_icon-menu {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 45px;
   }
 }

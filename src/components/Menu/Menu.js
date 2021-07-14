@@ -21,7 +21,7 @@ export const Menu = () => {
         <>
             <div className="menu" open={open}>
                 <div className="content_icon-menu">
-                    <img src={menu} alt="logo-menu" open={open} onClick={handleClick}/>
+                    <img src={menu} alt="logo-menu" className="img-menu" open={open} onClick={handleClick}/>
                 </div>
         
                 {

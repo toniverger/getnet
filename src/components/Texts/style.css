@@ -18,6 +18,14 @@
 
 @media screen and (max-width: 1118px) {
   .title {
+    padding: 0px 20px 5px 50px;
+  }
+  .subtitle {
+    padding: 0px 20px 5px 50px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .title {
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -30,14 +38,15 @@
     font-size: 16px;
     padding: 0px;
   }
-}
 
+}
 @media screen and (max-width: 767px) {
   * {
     margin: 0px;
     padding: 0px;
   }
   .title {
+
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -45,30 +54,42 @@
     text-align: center;
   }
   .subtitle {
+    
+height: 3opx;
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 16px;
     padding: 0px;
     margin: 0px;
+    padding: 0px 150px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .title {
-    padding: 5px;
+    padding: 5px 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
   .subtitle {
-    height: 30px;
-    padding: 5px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 16px;
+    padding: 0px 35px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 404px) {
+  .title {
+    font-size: x-large;
+  }
+  .subtitle {
+    padding: 0px 35px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 330px) {
+  .subtitle {
+    padding: 2px;
   }
 }

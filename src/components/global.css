@@ -47,6 +47,20 @@
     height: 60px;
   }
 }
+.cel_validate {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 0px 5px 101px;
+}
+@media screen and (max-width: 991px) {
+  .cel_validate {
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+  }
+  .form-code {
+    height: auto;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .new-code {
@@ -64,6 +78,7 @@
 
 @media screen and (max-width: 479px) {
   .form-code {
+    height: auto;
     padding: 0px;
   }
   .input-code {
@@ -83,8 +98,8 @@
 }
 
 /* page adress*/
+
 .subtitle-adress {
-  padding: 10px;
 }
 .input-adress {
   background-color: #eeeeee;
@@ -129,7 +144,44 @@
   border-radius: 23px;
   cursor: pointer;
 }
-@media screen and (max-width: 1114px) {
+@media screen and (max-width: 1560px) {
+  .salesOperations {
+    margin-bottom: 140px;
+  }
+  .title-data {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .subtitle-data {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1220px) {
+ 
+  .form-adress-respons {
+  
+  }
+  #form-adress {
+    width: 80%;
+    height: auto;
+    padding: 0px;
+    padding-left: 45px;
+  }
+  .salesOperations {
+    padding: 0px 30px 30px 45px;
+  }
+  .text-adress {
+    display: flex;
+  }
+}
+@media screen and (max-width: 991px) {
   #form-adress {
     width: 60%;
     height: 400px;
@@ -152,7 +204,7 @@
   .salesOperations {
     width: 60%;
     margin: 0px;
-    padding: 0px 0px 50px 200px;
+    padding: 0px 0px 50px 235px;
     margin-bottom: 60px;
   }
   .btn-hidden {
@@ -226,6 +278,13 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .salesOperations {
+    width: auto;
+    margin: 0px 0px 120px 0px;
+    padding: 0px 40px;
+  }
+}
 /*page review*/
 .page-review {
   position: relative;
@@ -240,7 +299,8 @@
 }
 .review_contact {
   display: flex;
-  margin: 2px 0px;
+  margin: 2px 50px;
+  background-color: ;
 }
 .congrats {
   font-size: 44px;
@@ -323,6 +383,28 @@
   display: none;
   visibility: hidden;
 }
+.doubt {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 991px) {
+  .page-review {
+    position: relative;
+  }
+  .doubt {
+    text-align: center;
+  }
+  .review_contact {
+    margin: 2px 0px;
+  }
+  .review_contact {
+    margin: 2px 0px;
+  }
+  
+
+}
+
 @media screen and (max-width: 790px) {
   .page-review {
     background-color: rgb(93, 128, 124);
@@ -330,7 +412,7 @@
   .review {
     height: 400px;
   }
- 
+
   .background-img_rigth {
     display: none;
     visibility: hidden;
@@ -354,6 +436,7 @@
   }
   .review-contact {
     width: 80%;
+    height: 20%;
     flex-direction: column;
   }
   .questions {
@@ -365,8 +448,8 @@
     display: flex;
     justify-content: space-between;
   }
- 
-   .btn-back {
+
+  .btn-back {
     display: none;
     visibility: hidden;
   }
@@ -388,6 +471,26 @@
   .congrats {
     width: 100%;
   }
+  .follow {
+    text-align: center;
+  }
+  .review_contact {
+    margin: 0px;
+  }
+  .sdelay {
+    width: 70%;
+    text-align: center;
+  }
+ 
+}
+@media screen and (max-width: 375px) {
+  .review{
+    width: 100%;
+  }
+  .sdelay {
+    width: 70%;
+    text-align: center;
+  }
 }
 
 /*page confirm*/
@@ -396,14 +499,18 @@
 }
 @media screen and (max-width: 1109px) {
   .confirm {
-    height: 600px;
+    height: auto;
   }
 }
 @media screen and(max-width: 479px) {
   .confirm {
-    height: 600px;
+    height: auto;
+  }
+  .doubt {
+    text-align: center;
   }
 }
+
 
 /*page docs*/
 .file-select::before {
@@ -420,17 +527,24 @@
 .content-subtitle {
   display: flex;
 }
+.content-one_doc {
+  display: flex;
+}
 .text-file {
   color: #960000;
 }
 .form-doc {
   padding: 0px 20px 5px 30px;
-
 }
 .input-docs {
   margin-right: 15px;
+  margin-bottom: 15px;
 }
 .subtitle-docs {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.rubro {
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -442,7 +556,7 @@
   width: 200px;
 }
 .content-checkbox {
-  display: flex;
+  margin-top: 15px;
 }
 .text-checkbox {
   margin-left: 5px;
@@ -467,18 +581,43 @@
   height: 2;
   margin: auto 30px;
 }
+@media screen and (max-width: 1560px) {
+  .form-doc {
+    padding: 0px 20px 5px 95px;
+  }
+}
+@media screen and (max-width: 1356px) {
+  .input-docs {
+    margin-bottom: 15px;
+  }
+  .content-docs_buttons {
+    width: 70%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .input-docs {
+    margin-bottom: 15px;
+  }
+  .content-docs_buttons {
+    height: auto;
+  }
+  .content-checkbox {
+    margin-top: 0px;
+  }
+}
 
 @media screen and (max-width: 1113px) {
   .form-doc {
-      padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 30px;
   }
   .content-docs_buttons {
     width: 100%;
-    height: 80px;
+    height: auto;
   }
-.container-input-docs {
-  width: 95%;
-}
+  .container-input-docs {
+    width: 95%;
+  }
   .input-docs {
     margin-bottom: 15px;
   }
@@ -489,11 +628,58 @@
     margin-bottom: 100px;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .form-doc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-docs_buttons {
+    width: 70%;
+    height: auto;
+  }
+  .container-input-docs {
+    width: 95%;
+  }
+  .content-one_doc {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-docs {
+    margin-bottom: 15px;
+    align-self: flex-start;
+  }
+  .hr-bottom {
+    width: 85%;
+  }
+  .ci {
+    margin-bottom: 100px;
+  }
+  .content-checkbox {
+    align-self: flex-start;
+  }
+  .subtitle-docs {
+    width: inherit;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  .rubro {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  .adjunt {
+    width: 100%;
+  }
+  
+}
 @media screen and(max-width: 666px) {
   .content-docs_buttons {
     width: 100%;
     height: 80px;
-    background-color: violet;
   }
   .container-input-docs {
     margin-top: 10px;
@@ -508,10 +694,9 @@
   }
   .content-docs_buttons {
     width: 100%;
-    
+    height: auto;
   }
   
- 
 }
 @media screen and (max-width: 479px) {
   .form-doc {
@@ -520,7 +705,7 @@
   }
   .content-docs_buttons {
     width: 100%;
-    height: 80px;
+    height: auto;
   }
   .container-input-docs {
     margin: 0px;
@@ -529,8 +714,41 @@
   }
   .input-docs {
     padding-left: 0px;
+    width: 90%;
   }
-  
+  .content-checkbox {
+    align-self: start;
+}
+.subtitle-docs {
+  width: 35%;
+}
+.rubro {
+  width: 98%;
+}
+.adjunt {
+  width: 100%;
+}
+
+}
+@media screen and (max-width: 375px) {
+  .content-checkbox {
+    justify-content: start;
+  }
+}
+@media screen and (max-width: 375px) {
+  .content-docs_buttons {
+    height: 110px;
+  }
+  .subtitle-docs {
+    width: 50%;
+    
+}
+.adjunt {
+  width: auto;
+}
+.rubro {
+  width: 98%;
+}
 }
 
 /*styles globales*/
@@ -566,4 +784,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.center {
+  text-align: center;
 }

@@ -11,14 +11,11 @@ const Page = ({ content }) => {
   return (
     <div className="container-root">
       <div className="content-nav">
-
-      <NavBar />
+        <NavBar />
       </div>
       <div className="content-menu">
-
-      <Menu/>
+        <Menu />
       </div>
-      
       <div className="content1">
         <div className="left">
           <img className="img-root" src={Individuals} />

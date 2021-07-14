@@ -20,13 +20,15 @@ const Documentation = () => {
                 <hr></hr>
                 <h className="title">Rubro, información fiscal y documentación</h>
                 <div className="form-doc">
-                    <p className="subtitle-docs black">Rubro:</p>
+                    <p className="rubro subtitle-docs black">Rubro:</p>
+                    <div className="content-one_doc">
                     <input className="input input-select input-docs" placeholder="Seleccioná Rubro *"></input>
                     <input className="input input-select input-docs" placeholder="Seleccioná Sub-rubro *"></input>
                     <div className="content-checkbox">
                         <input type="checkbox" ></input>
                         <label className="text-checkbox gray font18">Aplica Ley Nº 17.934 </label>
                         <img src={info} alt="icon-info" />
+                    </div>
                     </div>
                     <div className="content-subtitle">
                         <p className="subtitle-docs black">Tipo de contribuyente:  &nbsp;</p>
@@ -42,9 +44,9 @@ const Documentation = () => {
                     </div>
                     <div className="content-checkbox">
                         <input type="checkbox"></input>
-                        <p className="text-checkbox gray">Tengo declaración jurada por exoneración</p>
+                        <label className="text-checkbox gray">Tengo declaración jurada por exoneración</label>
                     </div>
-                    <p className="subtitle-docs black font18">Adjuntar foto de tarjeta de RUT o Formulario DGI 6361 - 6161 - 6351: *</p>
+                    <p className="adjunt subtitle-docs black font18">Adjuntar foto de tarjeta de RUT o Formulario DGI 6361 - 6161 - 6351: *</p>
                     <div class="container-input-docs">
                         <label for="file">
                             <figure>
@@ -54,7 +56,7 @@ const Documentation = () => {
                             <p className="gray">Debe estar en formato JPG PNG o PDF y no pesar más de 5MB.</p>
                         </label>
                     </div>
-                    <p className="subtitle-docs black font18">Adjuntar frente y dorso de Cédula de identidad: *</p>
+                    <p className="adjunt subtitle-docs black font18">Adjuntar frente y dorso de Cédula de identidad: *</p>
                     <div class="container-input-docs ci">
                         <label for="file">
                             <figure>

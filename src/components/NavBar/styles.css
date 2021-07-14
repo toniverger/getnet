@@ -5,10 +5,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: fixed;
+  background-color: #fff;
 }
 .btnClient {
   width: 168px;
-  height: 63px;
+  height: 62px;
   color: #9E3667;
   background: rgba(158, 54, 103, 0.2);
 }

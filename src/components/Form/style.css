@@ -8,6 +8,7 @@
   flex-direction: column;
   margin-top: 5px;
 }
+
 .error {
   color: #ff4e00;
 }
@@ -25,7 +26,7 @@
   width: 70%;
   height: 20vh;
   padding-top: 40px;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 .captcha {
   width: 70%;
@@ -66,7 +67,7 @@
     width: 80%;
     height: 40vh;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     margin: 0px;
     padding: 0px;
@@ -75,13 +76,13 @@
     margin-top: 5px;
     width: 70%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .container-terms {
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     margin-bottom: 110px;
   }
 }
@@ -172,10 +173,11 @@
     flex-direction: column;
   }
   .container-terms {
-    width: 50%;
+    width: auto;
     height: 70px;
     display: flex;
     align-items: center;
     margin-bottom: 110px;
+    padding: 0px;
   }
 }

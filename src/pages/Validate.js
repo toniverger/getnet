@@ -20,6 +20,7 @@ export const Validate = () => {
                     <Steps class_1="text_active" text1="1- Datos de la empresa" class_2="text_active" text2="2 - Validar número de celular" class_3="text-disabled" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
                     <hr></hr>
                     <Text title="Ingresa el código que te enviamos a tu celular" subtitle="Lo enviamos al 090 000 000 para confirmar que te pertenece" />
+                    <Link to="#" className="cel_validate linkBack violet">No es mi número</Link>
                     <form id="form" className="form-code">
                         <div className="validate">
                             <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required autoFocus></input>
@@ -33,7 +34,6 @@ export const Validate = () => {
                         <hr className="hr-bottom"></hr>
                         <div className="next-button">
                             <Button className="btnContinue-two" text="Continuar >" to="/confirm" />
-
                         </div>
                     </div>
                 </>

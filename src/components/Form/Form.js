@@ -20,6 +20,7 @@ export const Form = () => {
   }
 
   const Continuar = () => {
+    //example
     if (inputRut.length > 10) {
       console.log("mayor a 10")
       return true;
@@ -33,10 +34,10 @@ export const Form = () => {
     <>
       <form className="form">
         <div className="container-inputs">
-          <Inputs value={inputRut} onChange={showTextRut} placeholder="Numero de Rut" />
+          <Inputs value={inputRut} onChange={showTextRut} placeholder="Numero de Rut" type="number"/>
           <Inputs placeholder="Nombre fantasia" type="text" />
           <Inputs placeholder="Nombre y Apellido" type="text" />
-          <Inputs placeholder="Celular" />
+          <Inputs placeholder="Celular" type="number"/>
           <Inputs placeholder="Email" type="email" />
         </div>
         <ReCAPTCHA
@@ -61,7 +62,7 @@ export const Form = () => {
       <div className="next">
         <hr className="hr-bottom"></hr>
         <div className="next-button">
-          <Button className="btnContinue" onClick={Continuar()} to="/validate" text="Continuar >" />
+          <Button className="btnContinue btn-form" onClick={Continuar()} to="/validate" text="Continuar >" />
         </div>
       </div>
     </>
