@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useEffect} from "react";
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 import WOW from 'wowjs'
 
+import ContactForm from "../components/ContactForm"
 import './index.css'
 
 export const Index = () => {
@@ -514,32 +513,7 @@ export const Index = () => {
             </div>
           </div>
           <div className="formContainer">
-            <form action="">
-              <input
-                className="wow fadeInUpSmall"
-                data-wow-delay="0.6s"
-                type="text"
-                placeholder="Nombre completo"
-              />
-              <input
-                className="wow fadeInUpSmall"
-                data-wow-delay="0.7s"
-                type="text"
-                placeholder="Email"
-              />
-              <textarea
-                className="wow fadeInUpSmall"
-                data-wow-delay="0.8s"
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-                placeholder="Mensaje"
-              ></textarea>
-              <button className="wow fadeIn" data-wow-delay="0.9s" type="submit">
-                Enviar
-              </button>
-            </form>
+            <ContactForm />
             <div className="contactData">
               <h6 className="wow fadeInUpSmall" data-wow-delay="0.6s">
                 ¿Tenés dudas? Contactanos al
