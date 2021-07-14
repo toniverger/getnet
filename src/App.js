@@ -12,12 +12,13 @@ function App() {
     <div>
       <Router>
         <Switch>
+          <Route path="/clientes" component={Datas} />
           <Route path="/review" component={Review} />
           <Route path="/docs" component={Documentation} />
           <Route path="/adress" component={Adress} />
           <Route path="/validate" component={Validate} />
           <Route path="/confirm" component={Confirm} />
-          <Route path="/" component={Datas} />
+          <Route path="/" component={Index} />
         </Switch>
       </Router>
     </div>

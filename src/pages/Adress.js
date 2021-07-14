@@ -13,7 +13,7 @@ const Adress = () => {
             <>
                 <Steps class_1="text_active" text1="4 - Información del domicilio y operativa de venta" class_2="text_disabled" text2="5 - Rubro, información fiscal y documentación" class_3="text_disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <hr></hr>
-                <h className="title">Completá los datos del domicilio y operativa de venta</h>
+                <h className="text-adress title">Completá los datos del domicilio y operativa de venta</h>
                 <div className="form-adress-respons">
                     <form id="form-adress">
                         <p className="subtitle-adress black font18 bold">Domicilio principal:</p>
@@ -29,14 +29,14 @@ const Adress = () => {
                 <div className="salesOperations">
                     <p className="black font18 bold">Operativa de venta:</p>
                     <p className="gray">(Debes seleccionar al menos una opción)</p>
-                    <button className="btn-round_active">Venta con tarjeta presente</button>
+                    <button className="btn-round_active">Venta con tarjeta presente(POS)</button>
                     <button className="btn-round">Venta telefónica</button>
                     <button className="btn-round btn-hidden">Venta por internet</button>
                 </div>
                 <div className="next">
                     <hr className="hr-bottom"></hr>
                     <div className="next-button">
-                        <Button className="btnContinue-two" to="/docs" text="Continue >" />
+                        <Button className="btnContinue-two" to="/docs" text="Continuar >" />
                     </div>
                 </div>
             </>
@@ -45,32 +45,3 @@ const Adress = () => {
     )
 }
 export default Adress;
-
-/*
-<select
-
-                        </option>
-                        <option value="todos">Seleccionar</option>
-                        <option value="2">Artigas</option>
-                        <option value="3">Canelones</option>
-                        <option value="4">Cerro Largo</option>
-                        <option value="5">Colonia</option>
-                        <option value="6">Durazno</option>
-                        <option value="7">Flores</option>
-                        <option value="8">Florida</option>
-                        <option value="9">Lavalleja</option>
-                        <option value="10">Maldonado</option>
-                        <option value="1">Montevideo</option>
-                        <option value="11">Paysandú</option>
-                        <option value="12">Río Negro</option>
-                        <option value="13">Rivera</option>
-                        <option value="14">Rocha</option>
-                        <option value="15">Salto</option>
-                        <option value="16">San José</option>
-                        <option value="17">Soriano</option>
-                        <option value="18">Tacuarembó</option>
-                        <option value="19">Treinta y Tres</option>
-                    </select> */
-
-
-
