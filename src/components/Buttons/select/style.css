@@ -1,0 +1,11 @@
+.btn-selected {
+    background-color: #EC00000D;
+    border: 1px solid #EC0013;
+    color: #EC0000;
+    border-radius: 25px;
+    padding: 7px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+

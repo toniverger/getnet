@@ -1,0 +1,23 @@
+.container-nav {
+  width: 100%;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+}
+.btnClient {
+  width: 168px;
+  height: 62px;
+  color: #9E3667;
+  background: rgba(158, 54, 103, 0.2);
+}
+.container-icons {
+  width: 170px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+}

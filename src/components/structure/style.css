@@ -1,0 +1,106 @@
+.container-root {
+  height: 100vh;
+}
+.content1 {
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 30%;
+  display: flex;
+  position: fixed;
+  margin-top: 63px;
+}
+
+.right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 450px;
+ margin-top: 63px;
+  
+}
+.content2 {
+  width: 100%;
+}
+.img-root {
+  height: 700px
+}
+
+.content-menu {
+  display: none;
+  visibility: hidden;
+}
+/*resposive*/
+
+@media screen and (max-width: 1118px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+ 
+}
+@media screen and (max-width: 991px) {
+  .left {
+    display: none;
+    visibility: hidden;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+
+  }
+   .content-nav {
+    display: none;
+    visibility: hidden;
+  }
+  .content-menu {
+    display: flex;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .left {
+    display: none;
+    visibility: hidden;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+   .content-nav {
+    display: none;
+    visibility: hidden;
+  }
+  .content-menu {
+    display: flex;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .left {
+    display: none;
+    visibility: hidden;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .content-nav {
+    display: none;
+    visibility: hidden;
+  }
+  .content-menu {
+    display: flex;
+    visibility: visible;
+  }
+}

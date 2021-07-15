@@ -1,0 +1,37 @@
+.inputForm {
+  margin: 0px 10px 22px 10px;
+  color: gray;
+  width: 352px;
+  height: 40px;
+  background: #eeeeee;
+  opacity: 1;
+  border-style: none;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1118px) {
+}
+
+@media screen and (max-width: 767px) {
+  .inputForm {
+    margin: 0px 0px 22px 0px;
+    color: gray;
+    width: 352px;
+    height: 40px;
+    background: #eeeeee;
+    opacity: 1;
+    border-style: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .inputForm {
+    margin: 0px 0px 22px 0px;
+    color: gray;
+    width: 90%;
+    height: 40px;
+    background: #eeeeee;
+    opacity: 1;
+    border-style: none;
+  }
+}

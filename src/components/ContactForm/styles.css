@@ -1,0 +1,14 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm input, .contactForm textarea {
+    background-color: #eeeeee;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contactForm button {
+    width: 30%;
+}

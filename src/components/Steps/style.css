@@ -1,0 +1,134 @@
+.Steps {
+  width: 85%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.encloseSteps {
+  width: 25%;
+  height: 80px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.text_disabled {
+  color: #6f7779;
+}
+.text_active {
+  margin-top: 10px;
+  color: #9e3667;
+}
+.hr-step {
+  display: none;
+  visibility: hidden;
+  margin: 0px;
+}
+.content-hr_step {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1318px) {
+  .Steps {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 5px;
+  }
+  .content-hr_step {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Steps {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
+  }
+  
+  div.Steps {
+    margin-top: 20px;
+  }
+  .encloseSteps {
+    width: 20%;
+    height: 60px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #hidden-resp {
+    display: none;
+    visibility: hidden;
+  }
+  .content-hr_step {
+    width: 25%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hr-step {
+    width: 100px;
+    display: flex;
+    visibility: visible;
+    border-top: 1px solid gray;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Steps {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .encloseSteps {
+    width: 25%;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .content-hr_step {
+   height: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  div.Steps {
+    margin-top: 5px;
+  }
+  .encloseSteps {
+    width: 20%;
+    height: 80px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #hidden-resp {
+    display: none;
+    visibility: hidden;
+  }
+  .hr-step {
+    width: 50px;
+    display: flex;
+    visibility: visible;
+    border-top: 1px solid gray;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Steps {
+    height: 60px;
+  }
+  .encloseSteps {
+    height: 60px;
+  }
+}
