@@ -57,6 +57,7 @@ jobs:
           at: ~/repo/build
 
       # add ssh fingerprint
+      - run: mkdir -p ~/.ssh
       - run: echo 'dev.houlak.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJX+kw/rWuQCM6NR6fMvov74RufclN0OjZHNw8HekzHYeGziwYsGvl8T+ZoXEYWS1n8Pp1FWvMw2TjrVVpPiAVs=' >> ~/.ssh/known_hosts
       - run: echo 'qa.houlak.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJX+kw/rWuQCM6NR6fMvov74RufclN0OjZHNw8HekzHYeGziwYsGvl8T+ZoXEYWS1n8Pp1FWvMw2TjrVVpPiAVs=' >> ~/.ssh/known_hosts
       - deploy:
