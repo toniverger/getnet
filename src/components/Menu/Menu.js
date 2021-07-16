@@ -19,11 +19,10 @@ export const Menu = () => {
     
     return (
         <>
-            <div className="menu" open={open}>
+            <div className="menu-page" open={open}>
                 <div className="content_icon-menu">
                     <img src={menu} alt="logo-menu" className="img-menu" open={open} onClick={handleClick}/>
                 </div>
-        
                 {
                     (open) &&
                     <>

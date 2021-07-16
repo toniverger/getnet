@@ -1,11 +1,11 @@
-.title {
+.title-page {
   padding: 30px 20px 5px 100px;
   font: normal normal normal 30px/34px Santander Headline;
   letter-spacing: 0px;
   color: #ec0000;
   opacity: 1;
 }
-.subtitle {
+.subtitle-page {
   padding: 0px 20px 5px 105px;
   letter-spacing: var(--unnamed-character-spacing-0);
   font-size: 16px;
@@ -17,45 +17,42 @@
 /*resposive*/
 
 @media screen and (max-width: 1118px) {
-  .title {
+  .title-page {
     padding: 0px 20px 5px 50px;
   }
-  .subtitle {
+  .subtitle-page {
     padding: 0px 20px 5px 50px;
   }
 }
 @media screen and (max-width: 991px) {
-  .title {
+  .title-page {
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .subtitle {
+  .subtitle-page {
     display: flex;
     justify-content: center;
     font-size: 16px;
     padding: 0px;
   }
-
 }
 @media screen and (max-width: 767px) {
   * {
     margin: 0px;
     padding: 0px;
   }
-  .title {
-
+  .title-page {
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .subtitle {
-    
-height: 3opx;
+  .subtitle-page {
+    height: 3opx;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -67,29 +64,29 @@ height: 3opx;
 }
 
 @media screen and (max-width: 479px) {
-  .title {
+  .title-page {
     padding: 5px 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .subtitle {
+  .subtitle-page {
     padding: 0px 35px;
     width: auto;
   }
 }
 @media screen and (max-width: 404px) {
-  .title {
+  .title-page {
     font-size: x-large;
   }
-  .subtitle {
+  .subtitle-page {
     padding: 0px 35px;
     width: auto;
   }
 }
 @media screen and (max-width: 330px) {
-  .subtitle {
+  .subtitle-page {
     padding: 2px;
   }
 }
