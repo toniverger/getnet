@@ -29,11 +29,11 @@
   margin-left: 20px;
 }
 .captcha {
-  width: 70%;
+  width: 64%;
   display: flex;
   justify-content: flex-end;
-  padding-left: 20px;
-  margin-top: -40px;
+  padding-left: 0px;
+  margin-top: 0px;
 }
 .labelCheckbox {
   color: #8d8080;
