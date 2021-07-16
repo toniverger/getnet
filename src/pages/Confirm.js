@@ -15,7 +15,7 @@ const Confirm = () => {
                     <Steps class_1="text_active" text1="1- Datos de la empresa" class_2="text_active" text2="2 - Validar número de celular" class_3="text_active" text3="3 - Confirmación de la cuenta" src1={empresa} src2={validar} src3={confirmar} />
                     <hr></hr>
                     <div className="confirm">
-                        <h className="title">¡Listo!</h>
+                        <h className="title-page">¡Listo!</h>
                         <Text title="Creaste tu cuenta en Empresa" subtitle="Para estar operativo lo antes posible, termina de completar los últimos datos de tu comercio" />
                     </div>
                     <div className="next">
