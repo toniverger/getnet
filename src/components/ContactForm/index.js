@@ -4,9 +4,11 @@ import "./styles.css";
 
 const ContactForm = () => {
   const nameRegex = /(\w{2,})\s(\w{2,})/g;
-  const [visible, setVisible] = useState(false);
+  const emailRegex = /[\w\.]+@([\w]+\.)+[\w]{2,4}/gi;
+  const [nameErrorVisible, setNameErrorVisible] = useState(false);
+  const [mailErrorVisible, setMailErrorVisible] = useState(false);
+  const [textErrorVisible, setTextErrorVisible] = useState(false);
   const [message, setMessage] = useState({ name: "", email: "", text: "" });
-  console.log(nameRegex.test(message.name));
 
   const handleChange = (e) => {
     setMessage({ ...message, [e.target.name]: e.target.value });
@@ -14,19 +16,31 @@ const ContactForm = () => {
 
   const validate = (e, message) => {
     if (!nameRegex.test(message.name)) {
-      console.log(message);
-      console.log(visible);
-      setVisible(true);
+      setNameErrorVisible(true);
       e.preventDefault();
+    } else {
+      setNameErrorVisible(false);
     }
-    if (nameRegex.test(message.name)) {
-      setVisible(false);
+
+    if (emailRegex.test(message.email) === false) {
+      setMailErrorVisible(true);
+      e.preventDefault();
+    } else {
+      setMailErrorVisible(false);
     }
+    
+    if (message.text.length < 15) {
+      setTextErrorVisible(true);
+      e.preventDefault();
+    } else {
+      setTextErrorVisible(false);
+    }
+
   };
 
   return (
     <form
-      action="#"
+      action="/"
       className="contactForm"
       onSubmit={(e) => validate(e, message)}
     >
@@ -39,7 +53,10 @@ const ContactForm = () => {
         placeholder="Nombre completo"
         onKeyUp={handleChange}
       />
-      <label style={{ display: visible ? "block" : "none", color: "black" }}>
+      <label
+        className="labelError"
+        style={{ display: nameErrorVisible ? "block" : "none", color: "black" }}
+      >
         El nombre debe tener 2 palabras de al menos dos letras cada una
       </label>
       <input
@@ -50,6 +67,12 @@ const ContactForm = () => {
         placeholder="Email"
         onKeyUp={handleChange}
       />
+      <label
+        className="labelError"
+        style={{ display: mailErrorVisible ? "block" : "none", color: "black" }}
+      >
+        Por favor, ingresa un email válido
+      </label>
       <textarea
         name="text"
         className="wow fadeInUpSmall"
@@ -60,6 +83,12 @@ const ContactForm = () => {
         placeholder="Mensaje"
         onKeyUp={handleChange}
       ></textarea>
+      <label
+        className="labelError"
+        style={{ display: textErrorVisible ? "block" : "none", color: "black" }}
+      >
+        El mensaje debe ser más largo
+      </label>
       <button className="wow fadeIn" data-wow-delay="0.9s" type="submit">
         Enviar
       </button>
