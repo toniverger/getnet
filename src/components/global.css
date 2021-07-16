@@ -349,7 +349,7 @@
   padding: 10px 0px 0px 15px;
 }
 .questions {
-  width: 30%;
+  width: 25%;
   padding: 0px 40px;
 }
 .sdelay {
@@ -384,10 +384,6 @@
   display: none;
   visibility: hidden;
 }
-.doubt {
-  text-align: center;
-}
-
 
 @media screen and (max-width: 991px) {
   .page-review {
@@ -483,11 +479,11 @@
     justify-content: flex-start;
     margin: 20px 0px;
   }
+  .follow {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 479px) {
- .review {
-
- }
   .congrats {
     width: 100%;
   }
@@ -511,6 +507,29 @@
     width: 70%;
     text-align: center;
   }
+  .congrats {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 310px) {
+  .review {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .congrats {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    font-size: 17px;
+    padding: 0px;
+  }
+  .review_contact-two {
+    display: inherit;
+  }
+ .socials {
+   padding: 0px;
+ }
 }
 
 /*page confirm*/
