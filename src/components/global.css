@@ -1,8 +1,9 @@
 /**styles globales/
 
 
-/*input code page validate*/
+/*page validate*/
 .form-code {
+  width: 100%;
   height: 250px;
   padding: 0px 30px 30px 70px;
   margin-bottom: 100px;
@@ -299,8 +300,7 @@
 }
 .review_contact {
   display: flex;
-  margin: 2px 50px;
-  background-color: ;
+  margin: 10px 12px;
 }
 .congrats {
   font-size: 44px;
@@ -333,10 +333,10 @@
 }
 .review-contact {
   display: flex;
-  width: 70%;
+  width: 100%;
   height: 30%;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-evenly;
   align-items: center;
 }
 .socials {
@@ -352,9 +352,10 @@
   width: 30%;
   padding: 0px 40px;
 }
-.delay {
+.sdelay {
   text-align: left;
   width: 80%;
+  margin-top: 10px;
 }
 .background-img_left {
   position: absolute;
@@ -401,8 +402,23 @@
   .review_contact {
     margin: 2px 0px;
   }
-  
-
+  .btn-back {
+    display: none;
+    visibility: hidden;
+  }
+  .btn-back_resp {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    height: 40px;
+  }
+  .review_content-btn_resp {
+    width: 80%;
+    display: flex;
+    visibility: visible;
+    justify-content: flex-start;
+    margin: 20px 0px;
+  }
 }
 
 @media screen and (max-width: 790px) {
@@ -428,11 +444,12 @@
     visibility: visible;
     font-size: 32px;
     text-align: center;
-    padding: 20px;
+   
   }
-  .delay {
+  .sdelay {
     display: flex;
     visibility: visible;
+    text-align: center;
   }
   .review-contact {
     width: 80%;
@@ -468,6 +485,9 @@
   }
 }
 @media screen and (max-width: 479px) {
+ .review {
+
+ }
   .congrats {
     width: 100%;
   }
