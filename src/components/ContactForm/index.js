@@ -4,7 +4,7 @@ import "./styles.css";
 
 const ContactForm = () => {
   const nameRegex = /(\w{2,})\s(\w{2,})/g;
-  const emailRegex = /[\w\.]+@([\w]+\.)+[\w]{2,4}/gi;
+  const emailRegex = /[\w]+@([\w]+\.)+[\w]{2,4}/gi;
   const [nameErrorVisible, setNameErrorVisible] = useState(false);
   const [mailErrorVisible, setMailErrorVisible] = useState(false);
   const [textErrorVisible, setTextErrorVisible] = useState(false);
@@ -12,6 +12,24 @@ const ContactForm = () => {
 
   const handleChange = (e) => {
     setMessage({ ...message, [e.target.name]: e.target.value });
+  };
+
+  const sendForm = (message) => {
+    const body = {
+      fullName: message.name,
+      email: message.emial,
+      message: message.text,
+    };
+    fetch("/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body,
+    })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   const validate = (e, message) => {
@@ -28,22 +46,18 @@ const ContactForm = () => {
     } else {
       setMailErrorVisible(false);
     }
-    
+
     if (message.text.length < 15) {
       setTextErrorVisible(true);
       e.preventDefault();
     } else {
       setTextErrorVisible(false);
     }
-
+    sendForm(message);
   };
 
   return (
-    <form
-      action="/"
-      className="contactForm"
-      onSubmit={(e) => validate(e, message)}
-    >
+    <form className="contactForm" onSubmit={(e) => validate(e, message)}>
       <input
         name="name"
         id="formName"
@@ -51,7 +65,7 @@ const ContactForm = () => {
         data-wow-delay="0.6s"
         type="text"
         placeholder="Nombre completo"
-        onKeyUp={handleChange}
+        onChange={handleChange}
       />
       <label
         className="labelError"
@@ -65,7 +79,7 @@ const ContactForm = () => {
         data-wow-delay="0.7s"
         type="text"
         placeholder="Email"
-        onKeyUp={handleChange}
+        onChange={handleChange}
       />
       <label
         className="labelError"
@@ -81,7 +95,7 @@ const ContactForm = () => {
         cols="30"
         rows="10"
         placeholder="Mensaje"
-        onKeyUp={handleChange}
+        onChange={handleChange}
       ></textarea>
       <label
         className="labelError"
