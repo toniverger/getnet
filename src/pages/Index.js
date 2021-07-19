@@ -263,7 +263,7 @@ export const Index = () => {
             <div className="row">
               <div className="column three">
                 <div className="box wow fadeInUpSmall" data-wow-delay="0.4s">
-                  <img src="../images/icon-web.svg" alt="Web" />
+                  <img className="card_icon" src="../images/icon-web.svg" alt="Web" />
                   <h3 className="title">Revisá tus ventas en empresa.com.uy</h3>
                   <p className="description">
                     Ingresá con tu usuario y clave a la plataforma, aquí podrás
@@ -273,7 +273,7 @@ export const Index = () => {
               </div>
               <div className="column three">
                 <div className="box wow fadeInDownSmall" data-wow-delay="0.6s">
-                  <img src="../images/icon-customer.svg" alt="Customer" />
+                  <img className="card_icon" src="../images/icon-customer.svg" alt="Customer" />
                   <h3 className="title">Mejorá la experiencia para tus clientes</h3>
                   <p className="description">
                     Con Empresa tus clientes podrán realizar compras más rápidas
@@ -283,7 +283,7 @@ export const Index = () => {
               </div>
               <div className="column three">
                 <div className="box wow fadeInUpSmall" data-wow-delay="0.8s">
-                  <img src="../images/icon-santander.svg" alt="Santander" />
+                  <img className="card_icon" src="../images/icon-santander.svg" alt="Santander" />
                   <h3 className="title">Avalado por Santander</h3>
                   <p className="description">
                     Empresa cuenta con la experiencia y el apoyo de uno de los
@@ -293,7 +293,7 @@ export const Index = () => {
               </div>
               <div className="column three">
                 <div className="box wow fadeInDownSmall" data-wow-delay="1s">
-                  <img src="../images/icon-money.svg" alt="Money" />
+                  <img className="card_icon" src="../images/icon-money.svg" alt="Money" />
                   <h3 className="title">Tengas el negocio que tengas</h3>
                   <p className="description">
                     Empresa tiene soluciones para todos los comercios.
@@ -519,11 +519,11 @@ export const Index = () => {
                 ¿Tenés dudas? Contactanos al
               </h6>
               <div className="contactInfo wow fadeInUpSmall" data-wow-delay="0.7s">
-                <img src="../images/icon-phone.svg" alt="Teléfono" />
+                <img className="contact_icon" src="../images/icon-phone.svg" alt="Teléfono" />
                 <span>0000 00 00</span>
               </div>
               <div className="contactInfo wow fadeInUpSmall" data-wow-delay="0.8s">
-                <img src="../images/icon-whatsapp.svg" alt="Whatsapp" />
+                <img className="contact_icon" src="../images/icon-whatsapp.svg" alt="Whatsapp" />
                 <span>000 000 000</span>
               </div>
 
@@ -533,17 +533,17 @@ export const Index = () => {
               <ul className="icons">
                 <li className="wow fadeInUp" data-wow-delay="1.1s">
                   <a href="#">
-                    <img src="../images/icon-facebook.svg" alt="Facebook" />
+                    <img className="contact_icon" src="../images/icon-facebook.svg" alt="Facebook" />
                   </a>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay="1.2s">
                   <a href="#">
-                    <img src="../images/icon-linkedin.svg" alt="LinkedIn" />
+                    <img className="contact_icon" src="../images/icon-linkedin.svg" alt="LinkedIn" />
                   </a>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay="1.3s">
                   <a href="#">
-                    <img src="../images/icon-instagram.svg" alt="Instagram" />
+                    <img className="contact_icon" src="../images/icon-instagram.svg" alt="Instagram" />
                   </a>
                 </li>
               </ul>

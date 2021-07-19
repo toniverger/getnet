@@ -3983,6 +3983,10 @@ section.enterprise .dots {
   font-family: "Microtext", sans-serif;
 }
 
+.card_icon {
+  width: 75px;
+}
+
 /*	--------------------------------------------------
 Choose
 -------------------------------------------------- */
@@ -4230,6 +4234,10 @@ section.contact .sectionTitle {
 section.contact .sectionTitle p,
 section.contact .sectionTitle .text {
   max-width: 100%;
+}
+
+.contact_icon {
+  width: 35px;
 }
 
 /*	--------------------------------------------------
