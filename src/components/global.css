@@ -253,6 +253,35 @@
     visibility: hidden;
   }
 }
+@media screen and (max-width: 600px) {
+  #form-adress {
+    width: 80%;
+    height: 400px;
+    padding: 0px;
+  }
+  .input-adress {
+    width: 27%;
+    height: 40px;
+    padding: 0px;
+  }
+  .input-select {
+    width: 100%;
+  }
+  .input-dir {
+    width: 100%;
+  }
+  .form-adress-respons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesOperations {
+    width: 80%;
+    margin: 0px 0px 100px 0px;
+    padding: 0px 50px;
+  }
+}
 @media screen and (max-width: 479px) {
   #form-adress {
     width: 80%;
