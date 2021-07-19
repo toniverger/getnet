@@ -16,7 +16,7 @@ const Documentation = () => {
     return (
         <Page content={
             <>
-                <Steps hr_1="hr-step_active" hr_2="hr-step" class_1="text_active" text1="4 - Información del domicilio y operativa de venta" class_2="text_active" text2="5 - Rubro, información fiscal y documentación" class_3="text-disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
+                <Steps hr_1="hr-step_active" hr_2="hr-step" class_1="text_active" text1="4 - Información del domicilio y operativa de venta" class_2="text_active font-bold" text2="5 - Rubro, información fiscal y documentación" class_3="text-disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <hr></hr>
                 <h className="title-page">Rubro, información fiscal y documentación</h>
                 <div className="form-doc">

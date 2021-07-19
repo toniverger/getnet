@@ -32,10 +32,10 @@ export const Form = () => {
 
   return (
     <>
-      <form className="form">
+      <form className="form-page">
         <div className="container-inputs">
           <Inputs value={inputRut} onChange={showTextRut} placeholder="Numero de Rut" type="number"/>
-          <Inputs placeholder="Nombre fantasia" type="text" />
+          <Inputs className="inputss" placeholder="Nombre fantasia " type="text" />
           <Inputs placeholder="Nombre y Apellido" type="text" />
           <Inputs placeholder="Celular" type="number"/>
           <Inputs placeholder="Email" type="email" />
@@ -51,7 +51,7 @@ export const Form = () => {
           <label className="labelCheckbox">
             Acepto los{" "}
             <span>
-              <Link to="/validate" className="link-conditions">
+              <Link to="#" className="link-conditions">
                 {" "}
                 Terminos y condiciones
               </Link>{" "}

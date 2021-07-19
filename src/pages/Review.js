@@ -45,7 +45,7 @@ const Review = () => {
                     </div>
                     <div className="socials">
                         <p className="follow white font18">Seguinos</p>
-                        <Link to="#" >
+                        <Link className="link-social wow fadeInUp" data-wow-delay="1.1s" to="#" >
                             <img className="img-socials" src={facebook} alt="icon-facebook" />
                         </Link>
                         <Link to="#">

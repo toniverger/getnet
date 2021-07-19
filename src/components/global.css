@@ -13,6 +13,7 @@
   width: 70px;
   height: 30px;
   margin: 30px;
+  font-family: "Microtext";
 }
 .link-submit-code {
   color: #9e3667;
@@ -145,6 +146,10 @@
   border-radius: 23px;
   cursor: pointer;
 }
+.subtitle-data {
+  font-family: "Microtext";
+  margin: 15px 15px
+}
 @media screen and (max-width: 1560px) {
   .salesOperations {
     margin-bottom: 140px;
@@ -162,13 +167,11 @@
     text-align: center;
     width: 100%;
     justify-content: center;
+    font-family: "Microtext";
+    margin-top: 15px;
   }
 }
 @media screen and (max-width: 1220px) {
- 
-  .form-adress-respons {
-  
-  }
   #form-adress {
     width: 80%;
     height: auto;
@@ -204,6 +207,7 @@
   }
   .salesOperations {
     width: 60%;
+    height: auto;
     margin: 0px;
     padding: 0px 0px 50px 235px;
     margin-bottom: 60px;
@@ -218,6 +222,9 @@
   #form-adress {
     width: 60%;
     height: 400px;
+  }
+  .subtitle-data {
+    padding: 0px 15px;
   }
   .input-adress {
     width: 23%;
@@ -236,6 +243,7 @@
   }
   .salesOperations {
     width: 70%;
+    height: auto;
     margin: 0px;
     padding: 0px 0px 50px 150px;
     margin-bottom: 60px;
@@ -297,15 +305,18 @@
   height: 100vh;
   background-color: #ec0000; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #ec0000, #732645);
+  font-family: 'Santander';
 }
 .review_contact {
   display: flex;
-  margin: 10px 12px;
+  margin: 10px 0px;
 }
 .congrats {
   font-size: 44px;
   justify-content: left;
   width: 80%;
+  font-family: 'Headline';
+  font-weight: 600;
 }
 .review_content-btn {
   width: 80%;
@@ -321,6 +332,7 @@
 }
 .link-back {
   text-decoration: none;
+  font-family: 'Santander';
 }
 .review {
   display: flex;
@@ -342,6 +354,10 @@
 .socials {
   padding: 0px 30px;
 }
+.link-social {
+  transition: 0.4s;
+
+}
 .img-socials {
   margin: 5px;
 }
@@ -351,6 +367,7 @@
 .questions {
   width: 25%;
   padding: 0px 40px;
+  font-family: 'Santander';
 }
 .sdelay {
   text-align: left;
@@ -460,6 +477,7 @@
   .review_contact-two {
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
   }
 
   .btn-back {
@@ -573,7 +591,7 @@
   color: #960000;
 }
 .form-doc {
-  padding: 0px 20px 5px 30px;
+  padding: 0px 20px 5px 100px;
 }
 .input-docs {
   margin-right: 15px;
@@ -622,7 +640,7 @@
 }
 @media screen and (max-width: 1560px) {
   .form-doc {
-    padding: 0px 20px 5px 95px;
+    padding: 0px 20px 5px 100px;
   }
 }
 @media screen and (max-width: 1356px) {
@@ -826,4 +844,7 @@ hr {
 }
 .center {
   text-align: center;
+}
+.font-bold {
+  font-weight: 600;
 }

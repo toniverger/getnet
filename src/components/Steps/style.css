@@ -14,10 +14,12 @@
 .text-disabled {
   color: #6f7779;
   margin-top: 10px;
+  font-family: 'Santander';
 }
 .text_active {
   margin-top: 10px;
   color: #9e3667;
+  font-family: 'Santander';
 }
 .hr-step {
   display: none;
