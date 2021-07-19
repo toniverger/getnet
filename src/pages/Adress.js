@@ -11,9 +11,9 @@ const Adress = () => {
     return (
         <Page content={
             <>
-                <Steps class_1="text_active" text1="4 - Información del domicilio y operativa de venta" class_2="text_disabled" text2="5 - Rubro, información fiscal y documentación" class_3="text_disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
+                <Steps hr_1="hr-step" hr_2="hr-step" class_1="text_active font-bold" text1="4 - Información del domicilio y operativa de venta" class_2="text-disabled" text2="5 - Rubro, información fiscal y documentación" class_3="text-disabled" text3="6- Revisión" src1={infor} src2={docs} src3={revision} />
                 <hr></hr>
-                <h className="text-adress title">Completá los datos del domicilio y operativa de venta</h>
+                <h className="text-adress title-page">Completá los datos del domicilio y operativa de venta</h>
                 <div className="form-adress-respons">
                     <form id="form-adress">
                         <p className="subtitle-adress black font18 bold">Domicilio principal:</p>

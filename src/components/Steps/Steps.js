@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 
 
-const Steps = ({ text1, text2, text3, src1, src2, src3, class_1, class_2, class_3 }) => {
+const Steps = ({ text1, text2, text3, src1, src2, src3, class_1, class_2, class_3, hr_1, hr_2 }) => {
   return (
     <div className="Steps">
       <div className="encloseSteps">
@@ -11,14 +11,14 @@ const Steps = ({ text1, text2, text3, src1, src2, src3, class_1, class_2, class_
         <p id="hidden-resp" className={class_1}> {text1} </p>
       </div>
       <div className="content-hr_step">
-        <hr className="hr-step"></hr>
+        <hr className={hr_1}></hr>
       </div>
       <div className="encloseSteps">
         <img src={src2} className="stepsIcons"/>
         <p id="hidden-resp" className={class_2}> {text2} </p>
       </div>
       <div className="content-hr_step">
-        <hr className="hr-step"></hr>
+        <hr className={hr_2}></hr>
       </div>
       <div className="encloseSteps">
         <img src={src3} className="stepsIcons"/>

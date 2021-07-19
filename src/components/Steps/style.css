@@ -20,10 +20,12 @@
 .text-disabled {
   color: #6f7779;
   margin-top: 10px;
+  font-family: 'Santander';
 }
 .text_active {
   margin-top: 10px;
   color: #9e3667;
+  font-family: 'Santander';
 }
 .hr-step {
   display: none;
@@ -87,6 +89,13 @@
     border-top: 1px solid gray;
     margin: 0px;
   }
+  .hr-step_active {
+    width: 100px;
+    display: flex;
+    visibility: visible;
+    border-top: 1px solid #EC0000;
+    margin: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -128,6 +137,13 @@
     display: flex;
     visibility: visible;
     border-top: 1px solid gray;
+    margin: 0px;
+  }
+  .hr-step_active {
+    width: 50px;
+    display: flex;
+    visibility: visible;
+    border-top: 1px solid #EC0000;
     margin: 0px;
   }
 }

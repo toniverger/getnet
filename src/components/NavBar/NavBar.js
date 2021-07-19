@@ -9,14 +9,20 @@ import linkedin from '../../images/linkedin.svg';
 const NavBar = () => {
   return (
     <div className="container-nav">
-      <button className="btnClient">
-        <img src={user} alt="logo-user" />
-        &nbsp; Hacete cliente
-      </button>
+      <a href="#" className="login">
+        <img src={user} alt="Hacete cliente" />
+        Hacete cliente
+      </a>
       <div className="container-icons">
-      <img src={facebook} />
-      <img src={linkedin} />
-      <img src={instagram} />
+        <a href="#">
+          <img className="icon-socials" src={facebook} alt="facebook" />
+        </a>
+        <a href="#">
+          <img className="icon-socials" src={linkedin} alt="Linkedin" />
+        </a>
+        <a href="#">
+          <img className="icon-socials" src={instagram} alt="Instagram" />
+        </a>
       </div>
     </div>
   );

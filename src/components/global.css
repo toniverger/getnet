@@ -16,6 +16,7 @@
   width: 70px;
   height: 30px;
   margin: 30px;
+  font-family: "Microtext";
 }
 .link-submit-code {
   color: #9e3667;
@@ -148,6 +149,10 @@
   border-radius: 23px;
   cursor: pointer;
 }
+.subtitle-data {
+  font-family: "Microtext";
+  margin: 15px 15px
+}
 @media screen and (max-width: 1560px) {
   .salesOperations {
     margin-bottom: 140px;
@@ -165,13 +170,11 @@
     text-align: center;
     width: 100%;
     justify-content: center;
+    font-family: "Microtext";
+    margin-top: 15px;
   }
 }
 @media screen and (max-width: 1220px) {
- 
-  .form-adress-respons {
-  
-  }
   #form-adress {
     width: 80%;
     height: auto;
@@ -207,6 +210,7 @@
   }
   .salesOperations {
     width: 60%;
+    height: auto;
     margin: 0px;
     padding: 0px 0px 50px 235px;
     margin-bottom: 60px;
@@ -221,6 +225,9 @@
   #form-adress {
     width: 60%;
     height: 400px;
+  }
+  .subtitle-data {
+    padding: 0px 15px;
   }
   .input-adress {
     width: 23%;
@@ -239,6 +246,7 @@
   }
   .salesOperations {
     width: 70%;
+    height: auto;
     margin: 0px;
     padding: 0px 0px 50px 150px;
     margin-bottom: 60px;
@@ -246,6 +254,35 @@
   .btn-hidden {
     display: none;
     visibility: hidden;
+  }
+}
+@media screen and (max-width: 600px) {
+  #form-adress {
+    width: 80%;
+    height: 400px;
+    padding: 0px;
+  }
+  .input-adress {
+    width: 27%;
+    height: 40px;
+    padding: 0px;
+  }
+  .input-select {
+    width: 100%;
+  }
+  .input-dir {
+    width: 100%;
+  }
+  .form-adress-respons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salesOperations {
+    width: 80%;
+    margin: 0px 0px 100px 0px;
+    padding: 0px 50px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -300,15 +337,18 @@
   height: 100vh;
   background-color: #ec0000; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #ec0000, #732645);
+  font-family: 'Santander';
 }
 .review_contact {
   display: flex;
-  margin: 10px 12px;
+  margin: 10px 0px;
 }
 .congrats {
   font-size: 44px;
   justify-content: left;
   width: 80%;
+  font-family: 'Headline';
+  font-weight: 600;
 }
 .review_content-btn {
   width: 80%;
@@ -324,6 +364,7 @@
 }
 .link-back {
   text-decoration: none;
+  font-family: 'Santander';
 }
 .review {
   display: flex;
@@ -345,6 +386,10 @@
 .socials {
   padding: 0px 30px;
 }
+.link-social {
+  transition: 0.4s;
+
+}
 .img-socials {
   margin: 5px;
 }
@@ -352,8 +397,9 @@
   padding: 10px 0px 0px 15px;
 }
 .questions {
-  width: 30%;
+  width: 25%;
   padding: 0px 40px;
+  font-family: 'Santander';
 }
 .sdelay {
   text-align: left;
@@ -387,10 +433,6 @@
   display: none;
   visibility: hidden;
 }
-.doubt {
-  text-align: center;
-}
-
 
 @media screen and (max-width: 991px) {
   .page-review {
@@ -467,6 +509,7 @@
   .review_contact-two {
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
   }
 
   .btn-back {
@@ -486,11 +529,11 @@
     justify-content: flex-start;
     margin: 20px 0px;
   }
+  .follow {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 479px) {
- .review {
-
- }
   .congrats {
     width: 100%;
   }
@@ -514,6 +557,29 @@
     width: 70%;
     text-align: center;
   }
+  .congrats {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 310px) {
+  .review {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .congrats {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    font-size: 17px;
+    padding: 0px;
+  }
+  .review_contact-two {
+    display: inherit;
+  }
+ .socials {
+   padding: 0px;
+ }
 }
 
 /*page confirm*/
@@ -557,7 +623,7 @@
   color: #960000;
 }
 .form-doc {
-  padding: 0px 20px 5px 30px;
+  padding: 0px 20px 5px 100px;
 }
 .input-docs {
   margin-right: 15px;
@@ -606,7 +672,7 @@
 }
 @media screen and (max-width: 1560px) {
   .form-doc {
-    padding: 0px 20px 5px 95px;
+    padding: 0px 20px 5px 100px;
   }
 }
 @media screen and (max-width: 1356px) {
@@ -810,4 +876,7 @@ hr {
 }
 .center {
   text-align: center;
+}
+.font-bold {
+  font-weight: 600;
 }
