@@ -23,10 +23,10 @@ export const Validate = () => {
                     <Link to="#" className="cel_validate linkBack violet">No es mi número</Link>
                     <form id="form" className="form-code">
                         <div className="validate">
-                            <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required autoFocus></input>
-                            <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
-                            <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
-                            <input className="input input-code" type="number" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
+                            <input className="input input-code" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required autoFocus></input>
+                            <input className="input input-code" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
+                            <input className="input input-code" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
+                            <input className="input input-code" name="dc1" placeholder="x" title="Dígito de Control" min="0" max="1" autocomplete="cc-number" required ></input>
                         </div>
                         <p id="new-code" className="new-code gray">¿No te llegó el código? <Link to="#" className="linkBack violet"> &nbsp; Volver a enviar</Link></p>
                     </form>

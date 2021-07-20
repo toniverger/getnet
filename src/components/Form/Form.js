@@ -31,7 +31,7 @@ export const Form = () => {
   }
 
   return (
-    <>
+    <div className="form-root">
       <form className="form-page">
         <div className="container-inputs">
           <Inputs value={inputRut} onChange={showTextRut} placeholder="Numero de Rut" type="number"/>
@@ -65,6 +65,6 @@ export const Form = () => {
           <Button className="btnContinue btn-form" onClick={Continuar()} to="/validate" text="Continuar >" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
