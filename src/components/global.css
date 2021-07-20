@@ -1,5 +1,8 @@
-/**styles globales/
+/*styles globales*/
 
+* {
+  font-family: "Santander";
+}
 
 /*page validate*/
 .form-code {

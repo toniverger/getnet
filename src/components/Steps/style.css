@@ -5,6 +5,12 @@
   justify-content: center;
   margin-top: 40px;
 }
+
+.stepsIcons {
+  width: 34px;
+  height: 34px;
+}
+
 .encloseSteps {
   width: 25%;
   height: 80px;
